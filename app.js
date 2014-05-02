@@ -25,7 +25,7 @@ var socketIO = require('socket.io')
 
 var Database = require('./modules/DBConnection')
 var Twitter = require('./modules/Twitter')
-//var Instagram = require('./modules/Instagram')
+var Instagram = require('./modules/Instagram')
 
 
 /**
@@ -79,9 +79,12 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.main.index);
 app.get('/setup',routes.main.setup)
-
+app.post('/setup',function(req,res){
+	console.log(req.body)
+	res.send('')
+})
 app.get('/instagram', routes.instagram.create )
-app.post('/instagram', routes.instagram.consume(Database) )
+app.post('/instagram', routes.instagram.consume(Database, Instagram) )
 
 /**
  *
