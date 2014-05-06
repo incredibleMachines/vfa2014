@@ -1,0 +1,42 @@
+<% include includes/header %>
+    <h1><%= title %></h1>
+    <h3>Instagram Subscriptions</h3>
+    <section class="col-md-5">
+      <form class="post subscriptions form-horizontal" method="POST" action = "instagram/new" <% /*action="https://api.instagram.com/v1/subscriptions/"*/ %> oninput="verify_token.value=object_id.value+'_token'">
+        <input name="callback_url" type="hidden" value="http://54.87.152.106/instagram">
+        <input name="aspect" type="hidden" value="media">
+        <input name="verify_token" type="hidden">
+        <section class="form-group">
+          <label class="col-sm-2 control-label">Object:</label>
+          <section class="col-md-10">
+	          <select class="form-control" name="object">
+	            <option value="tag">Tag</option>
+	          </select>
+          </section>
+        </section>
+        <section class="form-group">
+          <label class="col-md-2 control-label">Tag:</label>
+          <section class="col-md-10">
+          	<input class="form-control" name="object_id" type="text" placeholder="Enter Tag Name Without #">
+          </section>
+        </section>
+        <section class="form-group">
+          <button class="btn btn-default" type="submit">Create Subscription</button>
+        </section>
+      </form>
+      <form class="delete subscriptions" method="DELETE" action="instagram"<% /*action="https://api.instagram.com/v1/subscriptions" */%>>
+        <button class="btn btn-default" type="submit">Delete All Instagram Subscriptions</button>
+      </form>
+      <form class="get subscriptions" method="GET" action="https://api.instagram.com/v1/subscriptions">
+        <input name="client_id" type="hidden" value ="<%= instagram.client_id %>">
+        <input name="client_secret" type="hidden" value="<%= instagram.client_secret %>">
+        <button class="btn btn-default" type="submit">List All Instagram Subscriptions</button>
+      </form>
+      <section>
+      	<h3>Current Subscriptions</h3>
+      	<section class="current subscriptions">
+	    </section>
+      </section>
+    </section>
+
+<% include includes/footer %>

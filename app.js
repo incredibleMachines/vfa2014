@@ -15,6 +15,11 @@ var http = require('http');
 var path = require('path');
 var colors = require('colors')
 var socketIO = require('socket.io')
+//var ImmortalNTwitter = require('immortal-ntwitter');
+
+
+//Globals
+var socket, io, server;
 
 
 /**
@@ -26,6 +31,7 @@ var socketIO = require('socket.io')
 var Database = require('./modules/DBConnection')
 var Twitter = require('./modules/Twitter')
 var Instagram = require('./modules/Instagram')
+var Twitter = require('./modules/Twitter')
 
 
 /**
@@ -43,8 +49,8 @@ Database.MongoConnect()
  */
 
 var routes = {}
-routes.main = require('./routes');
-routes.instagram = require('./routes/instagram')
+routes.main = require('./routes/index-route');
+routes.instagram = require('./routes/instagram-route')
 
 /**
  *
@@ -71,6 +77,32 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
+
+/**
+ *
+ *  Boot Server, Socket.IO and Twitter Stream
+ *
+ */
+
+server = http.createServer(app)
+io = socketIO.listen(server)
+
+io.configure(function () { 
+  io.set("transports", ['websocket', 'xhr-polling']); 
+  io.set('log level', 1);
+  //io.set("polling duration", 10); 
+});
+
+server.listen(app.get('port'), function(){
+  console.log(' Express server listening on port '.inverse +' '+ app.get('port').toString().magenta);
+});
+
+io.sockets.on('connection', function(socket){
+	console.log('new socket connection')
+})
+
+Twitter.run(io)
+
 /**
  *
  *  Application Routes
@@ -79,22 +111,17 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.main.index);
 app.get('/setup',routes.main.setup)
+app.get('/canvas', routes.main.canvas)
+
+//for testing posts
 app.post('/setup',function(req,res){
 	console.log(req.body)
 	res.send('')
 })
 app.get('/instagram', routes.instagram.create )
-app.post('/instagram', routes.instagram.consume(Database, Instagram) )
+app.post('/instagram', routes.instagram.consume(Database, Instagram, io) )
+app.post('/instagram/new',routes.instagram.new(Instagram))
+app.delete('/instagram',routes.instagram.delete(Instagram) )
 
-/**
- *
- *  Boot Server and Socket.IO
- *
- */
 
-var server = http.createServer(app)
-var io = socketIO.listen(server)
 
-server.listen(app.get('port'), function(){
-  console.log(' Express server listening on port '.inverse +' '+ app.get('port').toString().magenta);
-});
