@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<style>
+			html,body,iframe,section{
+				width: 100%;
+				height: 100%;
+				padding: 0;
+				margin: 0;
+			}
+			iframe{
+				position: absolute;
+				border: solid 1px blue;
+			}
+			section#main{
+				position: absolute;
+				border: solid 1px red;
+				width: 100%;
+				height:100%;
+				z-index: 999;
+			}
+			
+		</style>
+	</head>
+	<body>
+		<iframe id="main" src="http://www.ray-ban.com/usa/customize/rb-2140-original-wayfarer-sunglasses"></iframe>
+		<script src='/js/vendor/jquery-2.0.3.min.js'></script>
+
+		<script>
+		var main = document.getElementById('main')
+		main.addEventListener('click',function(e){
+			console.log(e)
+		})
+		
+		
+		document.origin = "www.ray-ban.com"
+		$(document).ready(function(){
+			$('button').click(function(){
+				alert()
+				var elm = $('iframe').contents().find('img#img')
+				alert(elm)
+			})
+		})
+		$.ajax('http://www.ray-ban.com/usa/customize/rb-2140-original-wayfarer-sunglasses').done(function(data) {
+			    console.log(data)
+			    //alert( "success" );
+			  })
+			  .fail(function() {
+			    alert( "error" );
+			  })
+			  .always(function() {
+			    alert( "complete" );
+			  });
+		/*
+$.getJSON("http://www.ray-ban.com/usa/customize/rb-2140-original-wayfarer-sunglasses").done(function( json ) {
+		    console.log( "JSON Data: " + json);
+		  })
+		  .fail(function( jqxhr, textStatus, error ) {
+		    var err = textStatus + ", " + error;
+		    console.log( "Request Failed: " + err );
+		});	
+*/	
+				</script>
+
+	</body>
+</html>

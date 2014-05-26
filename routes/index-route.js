@@ -13,6 +13,6 @@ exports.setup = function(req,res){
   res.render('setup-view',{ title: 'Setup', instagram: keys.Instagram, slug: 'setup' })
 }
 
-exports.canvas = function(req,res){
-	res.render('canvas-view', {title: 'VFA 2014', slug: 'canvas'})
+exports.visualizer = function(req,res){
+	res.render('visualizer-view', {title: 'VFA 2014', slug: 'visualizer'})
 }

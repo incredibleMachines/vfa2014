@@ -114,14 +114,17 @@ function getRecentMedia(io,object, object_id,options){
 			 text: info.data[i].caption.text,
 			 image: info.data[i].images.standard_resolution.url,
 			 user: { username: info.data[i].user.username,
-			 		 photo: info.data[i].user.profile_photo,
+			 		 photo: (info.data[i].user.hasOwnProperty("profile_picture"))? info.data[i].user.profile_picture : '',
 			 		 name: info.data[i].user.full_name				 
 			 }
 		 }
-		 message.push(obj)
+		 
+		 if(info.data.length>5) message.push(obj)
+		 else io.sockets.emit('instagram', obj)
+		 
 	 }
 	 
-	 io.sockets.emit('instagram', message)
+	 if(info.data.length>5) io.sockets.emit('instagram',obj)
 	 
  }
  //optional array of options

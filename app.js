@@ -111,7 +111,7 @@ Twitter.run(io)
 
 app.get('/', routes.main.index);
 app.get('/setup',routes.main.setup)
-app.get('/canvas', routes.main.canvas)
+app.get('/visualizer', routes.main.visualizer)
 
 //for testing posts
 app.post('/setup',function(req,res){
@@ -123,5 +123,7 @@ app.post('/instagram', routes.instagram.consume(Database, Instagram, io) )
 app.post('/instagram/new',routes.instagram.new(Instagram))
 app.delete('/instagram',routes.instagram.delete(Instagram) )
 
-
+app.get('/test', function(req,res){
+	res.render('test-view',{})
+})
 
