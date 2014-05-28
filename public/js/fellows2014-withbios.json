@@ -1,0 +1,1401 @@
+var fellows = {	"2012":{
+		"year":2012,
+		"cities":[{
+			"city":"Cincinnati",
+			"people":[{
+				"name":"Chelsea Koglmeier",
+				"company":"Roadtrippers",
+				"logo":"roadtrippers.jpg",
+				"school":"Duke University",
+				"bio":"Chelsea graduated from Duke University with a degree in Public Policy and was the President of Duke's Triathlon Team. She spent a summer in Uganda working in microfinance, a semester in Bolivia, and a year working with urban schools in Philadelphia. Chelsea took a year off between high school and college to work for City Year (Americorps program) in Philadelphia, PA. In addition to the Triathlon team, she was a member of the DukeEngage Student Advisory Committee and Kappa Alpha Theta sorority.",
+				"image":"Koglmeier.jpg"
+			},
+			{
+				"name":"Dan Bloom",
+				"company":"BlackBook",
+				"logo":"blackbook.jpg",
+				"school":"Wesleyan University",
+				"bio":"Dan graduated with honors from Wesleyan University in 2010 as a history major. At Wesleyan, he was captain of the varsity wrestling team, a Resident Advisor, and he wrote his senior thesis about dance in colonial America. Wrestling at 125 lbs, Dan was a two-time New England Champion for Wesleyan. After graduating, Dan worked in the Wesleyan Development office, where he helped to raise over $10 million dollars towards financial aid in 2011. As the assistant wrestling coach, he led the team to its first New England Championship title in nearly 30 years. Daniel enjoys lifting, playing all sports, dancing, reading fantasy novels, and eating good food.",
+				"image":"Bloom.jpg"
+			},			
+			{
+				"name":"Max Eisenberg",
+				"company":"Autodesk",
+				"logo":"ilesfay.png",
+				"school":"Washington University in St. Louis",
+				"bio":"Max graduated from Washington University in St. Louis, where he majored in Urban Studies and Commercial Entrepreneurship, and originally hails from Birmingham, Michigan. Max led Bear Discounts LLC, providing a discount card to the WashU Community, and started Savvy Savings LLC to reach other colleges and universities in the area. He spent last summer working in private equity for FTL Capital Partners LLC in St. Louis. Max also helped found the Chamber of Commerce within the WashU Student Entrepreneurial Program (StEP) and was nominated for a Global Student Entrepreneur Award (GSEA). He enjoys playing softball and basketball, cheering on Detroit sports teams, boating, and traveling.",
+				"image":"Eisenberg.jpg"
+			},
+
+			{
+				"name":"Roanne Lee",
+				"company":"Cintrifuse",
+				"logo":"cintrifuse.png",
+				"school":"Georgetown University",
+				"bio":"Roanne (@RoanneCLee) graduated from Georgetown University, double majoring in Finance and International Business at the McDonough School of Business. She grew up in Los Angeles developing a refined taste for tamales and fish tacos. Roanne traveled to Paris and Berlin to work with an indie artist and in the Fall of 2010, she studied abroad in Barcelona. She also worked with entrepreneurs in the pharmaceutical, entertainment, and restaurant industries and helps friends with local ventures such as farmers markets and charitable concerts. With the help of VFA, Roanne aspires to build her own technology start-up, going beyond convention and measuring success through net impact.",
+				"image":"Lee.jpg"
+			}
+		]
+		},{
+			"city":"Cleveland",
+			"people":[			{
+				"name":"Rickey Ishida",
+				"company":"Advanced RV",
+				"logo":"zipscene.jpg",
+				"school":"Cornell University",
+				"bio":"Rickey is a 2010 graduate of Cornell University where he majored in Biomedical Engineering with a minor in Mechanical Engineering. Rickey was a lab tech at the Walter Reed Army Institute of Research and has used his Engineering skills to demolish and rebuild a house in his hometown in Maryland. In addition to his experience in metal and wood machining, he is also proficient in qPCR, ELISA, SDS-PAGE, Gel Electrophoresis, Protein Extraction, SolidWorks, Mill/Lathe/CNC Machining, Java, C++, and MATLAB. As if that weren't enough, he is currently learning Android programming as well! Rickey is fluent in Japanese, and some of his interests include: consumer products, fishing, guitar, stock trading, personal development, and the future of this country.",
+				"image":"Ishida.jpg"
+			}
+			]
+		},
+			{
+			"city":"Detroit",
+			"people":[{
+				"name":"Brentt Baltimore",
+				"company":"Detroit Venture Partners",
+				"logo":"dvp.png",
+				"school":"Claremont McKenna College",
+				"bio":"Brentt graduated from Claremont McKenna College in 2010 and then worked for two years as an Investment Banking Analyst at Credit Suisse. He had the opportunity to work on several transactions and he can assure anyone that 100+ hour work-weeks will teach one more about themselves than most other experiences in life. Brentt works closely with The Posse Foundation – one of the most comprehensive and renowned college access and youth leadership development programs in the United States (www.possefoundation.org). Recently, he completed his two year term on the national board of the organization and he remains active on a Los Angeles committee. Brentt spends his free time hunting down original muscle car parts, as he works towards re-building a 1967 Pontiac Firebird 400. The hobby has forced him to appreciate patience and to learn to channel frustration; especially when his car breaks down on the busiest freeway in Los Angeles, because for some reason, the clutch pedal has fallen to the floor. Majoring in Economics and Finance at Claremont McKenna, Brentt had the opportunity to embark on a two-week community building trip to Honduras, living with a host family. In addition, he was Captain and MVP of the 2010 Division II National Champion Rugby team.",
+				"image":"Baltimore.jpg"
+			},
+			{
+				"name":"Brian Bosche",
+				"company":"TernPro",
+				"logo":"bizdom.jpg",
+				"school":"Dartmouth College",
+				"bio":"Brian has a degree in Environmental Studies and Anthropology from Dartmouth College. Brian was valedictorian of his high school and 4-time state tennis champion in Bozeman, Montana. He has worked as a Research Associate for the Earthwatch Institute and a Field Intern at an environmental research center in Tortuguero National Park, Costa Rica. At Dartmouth, Brian was the founder and Captain of the Club Basketball Team, a Director for the Dartmouth Global Leadership Program, and an Undergraduate Advisor. Some of his interests include SCUBA diving, ecotourism, and reading mystery novels.",
+				"image":"Bosche.jpg"
+			},
+			{
+				"name":"Brian Rudolph",
+				"company":"Banza",
+				"logo":"quikly.png",
+				"school":"Emory University",
+				"bio":"Brian graduated from Emory University in the Goizueta Business School, where he studied Finance and International Business. Brian was the president of the Emory Entrepreneurs Network and an Executive Fellow of the Kairos Society. Since his sophomore year of college, Brian has run a music and entertainment website. He has interned at UBS and NBC. Some of Brian's interests include working out, making electronic music, and playing tennis.",
+				"image":"Rudolph.jpg"
+			},
+			{
+				"name":"Charles Watkins",
+				"company":"Google - Ann Arbor",
+				"logo":"",
+				"school":"Yale University",
+				"bio":"Charles graduated with a degree in psychology from Yale University. A Detroit native, Charles has a lifelong passion for art and an undying love for Vernor's pop (not ‘soda'). He spent a summer studying Kiswahili in Kenya and another interning at a strategy consulting firm. At Yale, Charles was the Media Coordinator of the Afro American Cultural Center, an Urban Improvement Corp mentor, and a research assistant in Yale's Psychology Department. He is also an occasional freelance graphic designer. Charles' interests include chess, drawing, and alternative hip-hop.",
+				"image":"Watkins.jpg"
+			},
+			{
+				"name":"Derek Turner",
+				"company":"Grand Circus",
+				"logo":"grandcircus.png",
+				"school":"Columbia University",
+				"bio":"Derek graduated with a degree in Political Science and Sociocultural Anthropology from Columbia University. Derek paid his own way to Detroit while applying to Venture for America to get a better sense of the environment and opportunities there. He was an Editor at the Columbia Daily Spectator, and has interned at the Council on Foreign Relations. Derek grew up in Phoenix, Arizona and considers himself immune to weather. His travels include trips to Europe, Southeast Asia, India, Southern Africa, and Israel.",
+				"image":"Turner.jpg"
+			},
+			{
+				"name":"Gabby Bryant",
+				"company":"Detroit Institute of Art",
+				"logo":"dandelion.jpg",
+				"school":"Harvard University",
+				"bio":"Gabby graduated from Harvard University, where she majored in Economics with a secondary in African American studies. Originally from Detroit, Gabby prides herself in always seeing potential, even when it's difficult. Her internships focused primarily in government and policy. She also has an undying love for the arts, in all forms. She was also the Treasurer for the Kuumba Singers of Harvard College. Gabby enjoys going to museums and discovering new restaurants.",
+				"image":"Bryant.jpg"
+			},
+			{
+				"name":"Jake L'Ecuyer",
+				"company":"Benzinga",
+				"logo":"benzinga.jpg",
+				"school":"Michigan State University",
+				"bio":"Jake graduated from Michigan State University in December 2011 with a B.A. in Economics. While at Michigan State, he served as a Social Media Intern for HoMedics where he helped build their fledgling Social Media program. He worked as a Summer Intern for Detroit Venture Partners, helping with proposal vetting and community outreach. He also served as a student director for East Lansing's Hatch, a student entrepreneurial co-working space, while helping launch the Zaarly college program on MSU's campus as “Campus CEO.” Jake is a member of the Delta Sigma Phi fraternity and is currently working with the marketing team at hiredMYway.com. His interests include startups, technology, snowboarding, golf, and mountain biking.",
+				"image":"Lecuyer.jpg"
+			},
+			{
+				"name":"Kathy Cheng",
+				"company":"DoodleHome",
+				"logo":"doodlehome.jpg",
+				"school":"Massachusetts Institute of Technology",
+				"bio":"Kathy studied Economics and Urban Planning at MIT. Last summer, Kathy had the opportunity to work on the Startup America initiative while interning at the US Small Business Administration. She saw this as a chance to experience and develop the momentum of exciting entrepreneurial work across the country, including VFA. Being a generalist in almost everything she does, Kathy has managed to pick up instruments from guitar to any kind of percussion she can get her hands on (including cajon, djembe and a brief stint in Senegalese drumming). She has many hobbies including photography, cooking and dance. At MIT, Kathy was involved in her sorority Kappa Alpha Theta, was one of the finalists in the MIT 100K Business Plan Competition and has had the chance to host her own radio show.",
+				"image":"Cheng.jpg"
+			},
+			{
+				"name":"Max Nussenbaum",
+				"company":"Are you a human?",
+				"logo":"areyouahuman.png",
+				"school":"Wesleyan University",
+				"bio":"Max (@maxnuss) is one of the CAPTCHA-killers at Are You a Human, where a typical day might find him creating web site content, designing minigames, connecting with customers, and filming hilarious promotional videos. He graduated in 2012 from Wesleyan University, where he was awarded High Honors for his English major and no honor whatsoever for his government major. In a past life, Max wrote and directed an original musical and appeared on the tv game show “Who Wants to Be a Millionaire?” For more about Max you can check out his web site, www.maxnuss.com, which serves mainly as a vehicle for brazen self-promotion.",
+				"image":"Nussenbaum.jpg"
+			},
+			{
+				"name":"Scott Lowe",
+				"company":"Chalkfly",
+				"logo":"digerati.jpg",
+				"school":"University of Oklahoma",
+				"bio":"Scott majored in Engineering Physics at the University of Oklahoma in Norman, OK, specializing in Artificial Intelligence and minoring in Mathematics. He discovered his passion for entrepreneurship through the Center for Creation of Economic Wealth at OU where he worked on projects ranging from creating a student-run micro-lending organization, researching the commercial viability of a fiber-optic intrusion monitoring technology, and leading the development of a mobile application designed to improve education in Oklahoma. His interests include spending time with friends and family, playing guitar, reading, and thinking about hard problems. Thank You to Greg and Sophia Gushee for Sponsoring Scott's Fellowship",
+				"image":"Lowe.jpg"
+			},
+			{
+				"name":"Tim Dingman",
+				"company":"Accio Energy",
+				"logo":"accio.png",
+				"school":"Brown University",
+				"bio":"Tim earned a Masters degree studying Electrical Engineering from Brown, having received his bachelors there in 2011. For two years, Tim organized A Better World by Design, a student-run and student-led sustainable design conference held annually at Brown and the Rhode Island School of Design. He is also the co-founder of SoLab, the Brown-RISD Solar Decathlon team. His interests include technology, sustainability, punk rock, and ultimate frisbee.",
+				"image":"Dingman.jpg"
+			},
+			{
+				"name":"Todd Nelson",
+				"company":"NextEnergy",
+				"logo":"nextenergy.jpg",
+				"school":"Columbia University",
+				"bio":"Todd graduated from Columbia University, double majoring in environmental science and American history with a focus on late 19th and 20th Century American industrialization. Through environmental entrepreneurship, he seeks to transform those ~120 year old paradigms that still exist in American energy production. He worked with a solar startup, which was much more fun than his past experiences in government, research, and corporate sustainability. At Columbia, Todd founded multiple projects, wrote policy, and served as the coordinator for two campus sustainability organizations, the Columbia University EcoReps and Green Umbrella. He's also an avid basketball player (and NBA connoisseur), bike commuter, and amateur cook.",
+				"image":"Nelson.jpg"
+			}]
+			},
+			{
+			"city":"Las Vegas",
+			"people":[{
+				"name":"Andy Chatham",
+				"company":"Project 100",
+				"logo":"downtownproject.jpg",
+				"school":"Cornell University",
+				"bio":"Andy Chatham (@ajchatham) is a Rhode Island native who studied Policy Analysis and Management at Cornell University. He developed his passion for business in 2009 while managing www.bigredboxes.com and managing the growing portfolio of student-run businesses as President of Student Agencies (http://studentagencies.com/businesses.php). Andy, a southpaw, frequently manages to fit in some pickup basketball, will talk politics or sports with anyone who will listen, and is slowly teaching himself how to code in Python. VFA is the fast-track way for him to realize his lifelong goal of starting a successful business, and he's eager to begin connecting with the incredible network surrounding the program.",
+				"image":"Chatham.jpg"
+			},
+			{
+				"name":"Josh Levine",
+				"company":"Turntable Health",
+				"logo":"downtownproject.jpg",
+				"school":"Wesleyan University",
+				"bio":"Josh is the Assistant Director of Healthcare Initiatives for Downtown Project in Las Vegas, where he's working with ZDoggMD to build a transformative primary care clinic less than a block from where he lives. His job is constantly in flux, but has included meeting with potential partners, leading focus groups, editing and at times acting in medical melodramas, and selecting architects. Josh was born and raised in New Haven and educated at Wesleyan University, where he dabbled in environmental activism, Buddhism, and neuroscience. In his spare time he enjoys sitting on stoops, snacking, and Yiddish words like “chutzpah.”",
+				"image":"Levine.jpg"
+			},
+			{
+				"name":"Austin 'Jude' Stanion",
+				"company":"Project 100",
+				"logo":"downtownproject.jpg",
+				"school":"University of North Carolina-Chapel Hill",
+				"bio":"Jude graduated from the University of North Carolina and studied Anthropology and Urban Planning. Born and raised in post-tobacco Durham, NC, Austin has always wanted to play a role in the rebirth of America's struggling cities. Austin's interest in urbanism and agricultural enterprises has led him from market research in New Orleans, to development consulting in Sierra Leone, to a semester of architecture school in Copenhagen, and most recently to urban planning and design work in Detroit. After living and working in the Motor City for a summer, Austin knew that he would never be satisfied in a city without a little dirt behind its ears. Due to his slow walking pace Austin bikes everywhere he can, and also performed in and directed UNC's improvised comedy company. Thank You to Downtown Project for Sponsoring Jude's Fellowship",
+				"image":"Stanion.jpg"
+			},
+			{
+				"name":"Laura Berk",
+				"company":"Vegas Tech Fund",
+				"logo":"downtownproject.jpg",
+				"school":"Williams College",
+				"bio":"Laura graduated from Williams College, where she studied economics. She's especially interested in social entrepreneurship and sustainable development, passions both sparked by a course she took with Steve Case called “Changing the World 101″ and by watching her dad grow his own business. At Williams, she is the student chair of the College's Committee on Undergraduate Life, has run a leadership retreat for freshmen, and has participated in various tutoring programs throughout her four years. She spent a summer helping to craft The Nature Conservancy's first-ever corporate engagement strategy and interned at MSNBC's “Morning Joe” program. Some of her interests include traveling to new places with her family, reading David Brooks' columns in the New York Times, playing soccer, and cooking with friends. Laura lived in Moscow as a child, grew up in the Washington D.C. suburbs, and has studied in England and France. Thank You to Downtown Project for Sponsoring Laura's Fellowship",
+				"image":"Berk.jpg"
+			},
+			{
+				"name":"Rob Solomon",
+				"company":"Downtown Project",
+				"logo":"downtownproject.jpg",
+				"school":"Cornell University",
+				"bio":"Rob graduated from the Cornell School of Industrial and Labor Relations. He enjoys spending much of his spare time participating in athletics and dabbling in music. Earlier in his college career, he won a gold medal at the Eastern Sprints League Championship, rowing for Cornell's Heavyweight Crew Team, and competed as a member of Cornell's Rugby Football Team. He also coached and played for the Cornell Club Lacrosse Team. Rob plays several musical instruments, focusing primarily on the guitar. He is the President and Founder of his own music promotion website, Backfromthezoo.com. Thank You to Downtown Project for Sponsoring Rob's Fellowship",
+				"image":"Solomon.jpg"
+			}]
+		},
+		{
+			"city":"New Orleans",
+			"people":[{
+				"name":"Alison Schmitt",
+				"company":"ReNEW Charter Schools",
+				"logo":"ehmstrategy.jpg",
+				"school":"University of Pennsylvania",
+				"bio":"Alison Schmitt graduated from the University of Pennsylvania's Wharton School where she designed her own concentration in International Development. She grew up in North Jersey, studied abroad in Argentina, and spent a summer in New Orleans working for a social enterprise specializing in real estate development and project management. Alison is an officer of Penn's community service club Circle K, is a student manager in her College House, and hopes to pursue a career in community development. Some of her interests include playing volleyball, board games, and eating chocolate.",
+				"image":"Schmitt.jpg"
+			},
+			{
+				"name":"Jim Kahmann",
+				"company":"Oseberg",
+				"logo":"onemorepallet.png",
+				"school":"Columbia University",
+				"bio":"Jim graduated from Columbia University with a degree in Economics and Political Science. His academic interests have also included computer programming, finance, philosophy, and East Asian history. Jim's work experience during college and over the summers has spanned everything from cleaning and painting boat hulls on the Norwalk River, to constructing model investment portfolios at Merrill Lynch in Honolulu. He has competed all four years for Columbia's Varsity Lightweight Rowing Team and raced with his crew at the national championships in June 2012.",
+				"image":"Kahmann.jpg"
+			},
+			{
+				"name":"Edie Feinstein",
+				"company":"Dinner Lab",
+				"logo":"kickboard.jpg",
+				"school":"Cornell University",
+				"bio":"Edith graduated from Cornell University, where she studied Industrial and Labor Relations. A born and bred New Yorker, Edie had a very eclectic childhood in the West Village, attending jazz concerts, museums, and films on a daily basis. At Cornell she kept busy as a Hillel Campus Entrepreneur, a production assistant at the Cornell Daily Sun, and with Sigma Delta Tau sorority and the Cornell Gourmet Club. Edie is also an avid foodie and world traveler. Check out her culinary adventures at http://eatingwithedie.wordpress.com. Her travels include trips to the Middle East, Europe, Southeast Asia, Australia and New Zealand.",
+				"image":"Feinstein.jpg"
+			},
+			{
+				"name":"John McGrail",
+				"company":"Turbosquid",
+				"logo":"turbosquid.png",
+				"school":"Amherst College",
+				"bio":"John graduated from Amherst College in May 2011, having studied Economics and Russian. He grew up in Arlington, Virginia, and was a valedictorian of his high school. Combining his interests in Economics and Russian, John worked for the Economics Section of the United States Embassy in Moscow, Russia, in the summer of 2010. He spent a year as a Fulbright English Teaching Assistant in Donetsk, Ukraine. Outside of work, John's favorite activity is running and he was a captain of the Amherst College Cross-Country team his senior year. His other interests include traveling, basketball, and Mexican food.",
+				"image":"McGrail.jpg"
+			},
+			{
+				"name":"Mark Bernstein",
+				"company":"Resource Environmental Solutions",
+				"logo":"res.png",
+				"school":"Northwestern University",
+				"bio":"Mark has a degree in Environmental Science and Economics from Northwestern University. On campus, he ran the Northwestern Sustainability Fund, organized a yearly bluegrass music festival, and worked as a research assistant at the University archives. He has taught health workshops at Chicago public high schools and worked with Evanston residents as an employment and public benefits advisor. Mark spent a semester in Beijing studying Mandarin while conducting research on Chinese consumption rates and government weather modification efforts. In his free time, Mark enjoys playing guitar and ukulele, listening to public radio, and caring for his pet hamster.",
+				"image":"Bernstein.jpg"
+			},
+			{
+				"name":"Michael Mayer",
+				"company":"Federated Sample",
+				"logo":"federatedsample.jpg",
+				"school":"University of Pennsylvania",
+				"bio":"Michael holds a degree in Finance from the University of Pennsylvania (Wharton). A Florida native and valedictorian of his high school class, Mike spent a summer as an Analyst in the Global Power Group of the Investment Bank at Credit Suisse. He turned down his offer from Credit Suisse when he realized that start-ups were his true passion. Mike is was a member of Pi Kappa Phi Fraternity and enjoys playing golf and basketball, working out, and traveling.",
+				"image":"Mayer.jpg"
+			},
+			{
+				"name":"Nihal Shrinath",
+				"company":"Resource Environmental Solutions",
+				"logo":"res.png",
+				"school":"Amherst College",
+				"bio":"Nihal graduated from Amherst College with a degree in Political Science and Computer Science. Nihal was the Editor-in-Chief of The Amherst Student and a senator in the Association of Amherst Students. He studied abroad in Italy and spent a summer working as a Web Design Intern at Liberty Mutual in Boston. He spent winter break in India, conducting research for his political science thesis on dam development. His favorite movie is Remember the Titans and some of his interests include rap music, reading, tennis, sustainability, and Boston sports.",
+				"image":"Shrinath.jpg"
+			},
+			{
+				"name":"Sara Cullen",
+				"company":"RPM & Co.",
+				"logo":"carrollton.png",
+				"school":"Cornell University",
+				"bio":"Sara graduated from Cornell University, where she studied International Agricultural and Rural Development with concentrations in the Middle East and Economics. An avid traveler and aspiring social entrepreneur, Sara first pursued her interests in high school when she volunteered at orphanages in Russia. More recently, Sara spent time studying in Kenya and India, and she lived in Morocco one spring studying how social media technologies influence migration patterns. Her professional experiences include working for the United Nations, U.S. Senate, and non-profits on a diverse range of contemporary global issues. In her free time, Sara enjoys riding horses, photography, and yoga.",
+				"image":"Cullen.jpg"
+			},
+			{
+				"name":"Billy Schrero",
+				"company":"StaffInsight",
+				"logo":"test",
+				"school":"Tulane University",
+				"bio":"Billy graduated from Tulane University and now works at StaffInsight. He grew up outside of Chicago but was drawn to New Orleans because of the opportunity to assist in the post-Katrina development. Since joining Venture for America, Billy launched Startup Effect, a entrepreneurship enrichment program for urban youth, with Mike Mayer, Brian Bosche and Brett Baltimore. His interests include playing basketball, design/architecture, and the countless cultural offerings that New Orleans provides. His goal is to create opportunities for others through education reform, open-sourcing, and long-term community focused development.",
+				"image":"Schrero.jpg"
+			}]
+		},
+		{
+		"city":"Philadelphia",
+		"people":[
+					{
+				"name":"James Fayal",
+				"company":"NextFab Studio",
+				"logo":"cincytech.jpg",
+				"school":"University of Maryland",
+				"bio":"James graduated with a degree in Finance from the University of Maryland in the Robert H. Smith School of business. He was an active member of the Accelerated Financial Fellows and Private Equity and Venture Capital Fellows programs. He has worked as an intern at a Morgan Stanley Smith Barney brokerage office in Connecticut and as an analyst at First Annapolis Consulting in Baltimore. During his first semester of senior year, James contributed to a white paper titled The “New” New Deal: A Pragmatic Approach for Stabilizing the Ailing Economy, which was distributed to over 400 politicians and received national attention on Thompson Reuter's website. Some of his interests include sailing, tennis, lacrosse, and SCUBA diving..",
+				"image":"Fayal.jpg"
+			}
+		]
+			
+		},
+		{
+			"city":"Providence",
+			"people":[{
+				"name":"Barry Conrad",
+				"company":"Swipely",
+				"logo":"downtownproject.jpg",
+				"school":"University of Oklahoma",
+				"bio":"Barry Conrad graduated from the University of Oklahoma with a degree in business finance. Originally hailing from Louisville, Colorado, Barry once had dreams of becoming a broadcast meteorologist; however, after joining the university's Center for the Creation of Economic Wealth (CCEW) he discovered entrepreneurship to be his true passion. During his time at CCEW Barry worked to create a non-profit in Sichuan Province, China aimed at providing more affordable and accessible cataract surgical care to rural residents. He spent a year working in venture capital for the Oklahoma Life Science Fund and was the COO of Appable, an application development company. Outside of school Barry enjoys playing tennis and racquetball, rooting for his Colorado based sports teams, and reading and re-reading all of the Harry Potter books. Thank You to Downtown Project for Sponsoring Barry's Fellowship",
+				"image":"Conrad.jpg"
+			},
+			{
+				"name":"Bryant Yik",
+				"company":"Teespring",
+				"logo":"mofuse.jpg",
+				"school":"University of Pennsylvania",
+				"bio":"Bryant graduated from The Wharton School of the University of Pennsylvania, where he studied Management and Public Policy. Bryant spent a summer as a Policy Analyst Intern at the Department of Homeland Security working in the strategic planning office. At Penn, Bryant completed entrepreneurship classes where he and other students developed a cloud-gaming service and pitched their idea to venture capitalists. An avid tennis player, Bryant was the captain of his high school tennis team and spent one summer as an assistant coach teaching young children how to play. His other interests include public and education policy, computer hardware, and playing poker.",
+				"image":"Yik.jpg"
+			},
+			{
+				"name":"Ethan Carlson",
+				"company":"VCharge Energy",
+				"logo":"vcharge.jpg",
+				"school":"Yale University",
+				"bio":"Ethan has a degree in Mechanical Engineering from Yale University. Ethan originally hails from Plainview, Minnesota and has a strong interest renewable energy. He has interned at GE Aviation and the Yale Center for Combustion Studies. He is a member of the American Society of Engineers, and was part of the Yale Climate and Energy Institute, Engineers without Borders, Yale Club Wrestling, and a co-founder of the Yale Undergraduate Energy club. Some of his interests include energy industry and policy, guitar music, and athletics.",
+				"image":"Carlson.jpg"
+			},
+			{
+				"name":"Melanie Friedrichs",
+				"company":"Andera",
+				"logo":"andera.jpg",
+				"school":"Brown University",
+				"bio":"Melanie studied economics at Brown University. She grew up in Bethesda, Maryland and is interested in social enterprise, urban studies and economic growth. In the summer of 2010 she worked for a logistics and supply chain management firm in Mumbai and returned to India in February of 2011 on the first leg of a comparative study abroad program that traveled to Delhi, Dakar, Senegal and Buenos Aires, Argentina. In 2011 she worked for Social Venture Partners Rhode Island, a multi-service center that works to support start-up social ventures in the state. She is an avid ultimate frisbee player and was captain of the women's team at Brown.",
+				"image":"Friedrichs.jpg"
+			},
+			{
+				"name":"Sean Lane",
+				"company":"Swipely",
+				"logo":"swipely.png",
+				"school":"Boston College",
+				"bio":"Sean graduated from Boston College, where he majored in Communications and with a Hispanic Studies minor. A native of Holden, MA, Sean grew up playing hockey in the winters, waterskiing in the summers, and rooting on Boston sports teams year round. At Boston College, Sean contributed to WZBC Sports Radio, serving as both a play-by-play announcer and color commentator at BC sporting events. As an Account Management and then Social Media Strategy intern at Hill Holliday in Boston, Sean developed passions for brands, advertising, and social media. He also gained entrepreneurial experience through the hockey clinic he founded in Central Massachusetts. Sean's college experience was highlighted by his semester abroad in Madrid, and he wrote his senior thesis on the long-term impact of the study abroad experience.",
+				"image":"Lane.jpg"
+			},
+			{
+				"name":"Sean Pennino",
+				"company":"Teespring",
+				"logo":"teespring.png",
+				"school":"Notre Dame, Brown",
+				"bio":"Sean received his Masters degree from Brown University's Program in Innovation Management and Entrepreneurship (PRIME). For his capstone project, he was part of a team that developed a business plan for creating low-cost, thin-film solar cells made from a unique method of metal deposition. In 2011 Sean earned his Bachelor of Science in Physics with a minor in Italian from the University of Notre Dame. His interest in technology commercialization led to a passion for entrepreneurship, which he looks forward to cultivating as a VFA fellow. Outside of the classroom, Sean could be found defending the goal for Brown's club hockey team. He also enjoys jazz, microbrews, situational comedy, and contemplating the mysteries of the universe.",
+				"image":"Pennino.jpg"
+			}]
+		}]
+	},
+	"2013":{
+	"year":2013,
+	"cities":[{"city":"Baltimore",
+						 "people":[
+							{"name": "Adam Rhoades-Brown",
+							 "company": "Vigilant Medical",
+							"logo":"",
+							"school": "Washington University in St. Louis" ,
+							"bio": "Adam is a senior majoring in biomedical engineering with a minor in biophysics at Washington University in St. Louis. During his sophomore year, Adam started an iPhone repair service for students and residents in the St. Louis area. He is also an owner and CEO of an on-campus business called Wash-U-Wash and an active member of the Student Entrepreneurial Program. During his freshman and sophomore years, Adam was awarded Science Undergraduate Laboratory Internships at Brookhaven National Laboratory where he undertook research in medical imaging. Adam spent last summer in Brazil and was an intern for a Brazilian commodity brokerage firm. He shadowed the managing director, learning about the Brazilian commodity and futures markets, helping to cultivate relations with new clients and interacting with international hedge funds. Currently, Adam is a teaching assistant for Quantitative Physiology and a Brotherhood Development Director for his fraternity. In his free time, Adam loves to travel, scuba dive, play soccer and is an avid Manchester United fan." ,
+							"image": "Adam_Rhoades-Brown.jpg"
+							},
+							{"name": "Clara Gustafson",
+								"company": "ZeroFOX",
+							"logo":"",
+							"school": "Georgetown University",
+							"bio": "Clara is studying Science, Technology, and International Affairs with a focus on Technology and Security at Georgetown University's School of Foreign Service in Washington, DC. Originally from Portland, Oregon she spent two years of high school in China with most classes in Mandarin. She has been involved with student government throughout her time at Georgetown and served this last year as student body president. Additionally, she and a few other students founded the Social Innovation and Public Service Fund in 2012, which finances student-led socially oriented initiatives. Her favorite way to enjoy being outside at Georgetown is with Women's Club Ultimate Frisbee; especially since hiking, camping, fishing, and hunting are hard to come by at Georgetown.",
+							"image":"Clara_Gustafson.jpg"
+
+							},
+							{"name": "Kavan McEachern",
+							"company": "ZeroFOX",
+							"logo":"",
+							"school": "Vassar College",
+							"bio": "Kavan is a senior at Vassar College, where he is majoring in computer science and has explored cognitive science, philosophy and physics. He spent the past two summers researching motion-planning algorithms and multi-robot communication at Vassar and at Carnegie Mellon University's Robotics Institute. Ever since delving into computer science and learning about the rapid advances in industrial robotics, he has wondered at the possibilities of commercial robotics, particularly in the realm of robotic prosthetics and sensory devices for physical and sensory impairment. He hopes to help impel a universally accessible bionic future. Kavan is also an avid frisbee thrower (and catcher), weightlifter, singer, electronic music listener, outdoorsman, and eater of Indian food.",
+							"image":"Kavan_McEachern.jpg"
+
+							},
+							{"name": "Paige Boehmcke",
+							 "company": "Vorbeck Materials",
+							 "logo":"",
+							 "school": "John Hopkins University",
+							 "bio": "Paige Boehmcke is a senior at Johns Hopkins University studying Materials Science & Engineering. Paige started her academic career at the University of Alabama, where she was lucky enough to contribute to a published paper her sophomore year. Paige was especially inspired by working with the HERO revitalization program in Greensboro, Alabama. After transferring to Johns Hopkins, Paige joined the cross country team, and she is now one of 57 proud owners of a 2012 Division III Cross Country National Championship ring. During the past year, Paige has spent time characterizing a new drug at Bristol-Myers Squibb, completing her senior design project, and helping new student groups grow through her involvement with Senior Leadership Consultants.",
+							 "image":"Paige_Boehmcke.jpg"
+
+								},
+							{"name": "Malavika Kesavan",
+								"company": "Pegged Software",
+								"logo":"",
+							"school": "Case Western Reserve University",
+							"bio": "Malavika is finishing her master's in Neurobiology at Case Western Reserve University in Cleveland. She graduated from CWRU in 2011 with a major in Biology and a minor in Biomedical Engineering. In college, Malavika enjoyed the opportunity to study abroad in Ireland, work as an editor for her school's literary magazine and do various design projects including CWRU's St. Gobain Material Design Competition where her team placed first. All this solidified her love for product innovation and working in interdisciplinary groups. In her free time she enjoys reading anything that is in front of her, blogging about food, and flying kites.",
+							"image":"Malavika_Kesavan.jpg"
+
+							},
+							{"name": "Moss Amer",
+								"company": "TEDCO",
+								"logo":"",
+							"school": "Brown University",
+							"bio": "Moss is a senior at Brown University, where he is studying both public policy and entrepreneurship. Moss spent the summer of 2012 in Cape Town conducting research for Brown's Global Entrepreneurship Initiative on the intersection of healthcare and mobile technology. In 2011, he investigated access to social services while studying abroad in Denmark. A strong advocate of sustainability, he has worked for a green consulting firm and a renewable energy trade magazine. His interests include film, political commentary, and ultimate frisbee.",
+							"image":"Moss_Amer.jpg"
+
+							},
+							{"name": "Peter DiPrinzio",
+								"company": "Pixelligent",
+								"logo":"",
+							"school": "Middlebury College",
+							"bio": "Peter is a senior studying International Economics and Film at Middlebury College in Vermont. He has worked in the NYC Parks Department's Marketing office, directed Public Relations for the Cherry Creek Arts Festival in Denver, and performed financial research at a NYC hedge fund. Most recently, Peter helped lead fundraising and communications efforts for Team Middlebury in the Department of Energy's 2011 Solar Decathlon Competition in Washington, DC. On campus, Peter is the captain of the Men's Water Polo team and a Head Chef for Dolci, Middlebury's student restaurant. Peter has also studied in Argentina at Universidad Torcuato diTella in Buenos Aires.",
+							"image":"Peter_Diprinzio.jpg"
+
+							},
+							{"name": "Wesley Verne",
+								"company": "ZeroFOX",
+								"logo":"",
+							"school": "Princeton University",
+							"bio": "Wesley graduated from Princeton University with a degree in Computer Science and a minor in Astrophysical Sciences. A longtime multidisciplinarian, he found his interest in entrepreneurship while working on a hybrid wind-solar power module for disaster relief settings. Wesley has firsthand knowledge working for small companies, most recently at Acadia Mountain Guides during the summer of 2012, and is excited to learn more about how to run a successful start-up. In his free time, Wesley enjoys rock climbing, both indoors and outdoors, and if asked, he will gladly tell you why space exploration is a human imperative or about the latest Wikipedia article he has read.",
+							"image":"Wes_Verne.jpg"
+
+							}
+						]
+						},
+						{"city":"Cincinnati",
+							"people":[
+												{"name": "Anh-Ton Tran",
+													"company": "Lisnr",
+													"logo":"",
+													"school": "University of Notre Dame",
+													"bio": "Anh-Ton is an IT Management Major with a Minor in French at the University of Notre Dame. A Houston native, he has always been fascinated by technology, culture and expression. Anh-Ton has had a variety of internships working in the Consulting and Entertainment industry. Last summer he interned in Los Angeles for AEG helping them launch the LA Food and Wine Festival, and Participant Media running digital campaigns for their movies and website. In his free time, he loves to cook, write, and competes for the ND rugby team.",
+													"image":"Ahn-ton_Tran.jpg"
+													},
+													{"name": "Ben Gregory",
+														"company": "myActions",
+														"logo":"",
+													"school": "Washington University in St. Louis",
+													"bio": "Ben is a senior Economics student at Washington University in St. Louis. Originally from Nashville, TN, Ben has a strong interest in economic redevelopment and spent the summer of 2012 working at the largest community development financial institution in Tennessee where he performed lead qualification on the company's energy efficiency loan program and assisted in preparing financial analyses for small businesses. After founding a microfinance oriented student group at WashU, Ben led a team of like-minded entrepreneurial students to Honduras in January 2013 to help capitalize a community bank and lead workshops to improve financial literacy. In his free time, Ben enjoys cooking, photography, and competing in physical endurance competitions, such as the Tough Mudder.",
+													"image":"Ben_Gregory.jpg"
+
+													},
+													{"name": "Chelsea Amsley",
+														"company": "myActions",
+														"logo":"",
+													"school": "Duke University",
+													"bio": "A graduate of Duke University, Chelsea studied Sociology and Policy Journalism and was a four-time letterman on Duke's Field Hockey team. Her interest in entrepreneurship came relatively late in her academic career, after picking up an internship with a local start-up to fulfill a major requirement. This experience at a young tech company – paired with a short stint working sales at Oracle — led Chelsea to Venture for America. Ultimately, she traded in Silicon Valley for Cincinnati & VFA, which provided her with what she was missing before: a position at a company whose mission she could stand behind and whose success she could have an influence on. Chelsea spends her free time frequenting coffee labs, exploring clothing boutiques, and indulging in a bit too much ice cream.",
+													"image":"Chelsea_Amsley.jpg"
+													},
+													{"name": "Chris Hikel",
+														"company": "Bioformix",
+														"logo":"",
+													"school": "Williams College",
+													"bio": "Chris is a senior at Williams College and native of western Maine, believes that education and entrepreneurship are vital tools for empowering people to transform themselves and the communities that they care about. As a result he is interested in the potential for technology to make education fun, (almost) free, and effective. In 2011 Chris interned at an economic policy research institute in Cape Town, South Africa, where he helped develop the design plans for a multi-year initiative to promote savings and education amongst government child grant recipients. After returning to the United States he worked in LinkedIn's sales operations, where he learned the ins and outs of using data to drive decisions in a global, rapidly expanding business. His interests include playing poker, watching movies and stand-up comedy, writing fiction, and spending time with friends.",
+													"image":"Chris_Hikel.jpg"
+													},
+													{"name": "Jack Farrell",
+														"company": "Petbrosia",
+														"logo":"",
+													"school": "Duke University",
+													"bio": "Jack is a senior at Duke University where he is a letterman and scholarship member of the varsity football team and a member of Duke's Program for Entrepreneurs. His passion for entrepreneurship started with lemonade stands as a child in Atlanta, furthered with the creation of a highlight film company for aspiring college athletes in high school, and then grew into creating and operating a textbook buyback business for student-athletes while at Duke. Jack enjoys exercising, watching movies, cooking and spending as much time as he can with his family.",
+													"image":"Jack_Farrell.jpg"
+
+													},
+													{"name": "Matt Fulton",
+														"company": "RoadTrippers",
+														"logo":"",
+													"school": "University of Colorado",
+													"bio": "Matt is a Web Developer and Finance Major (Class of 2013) at the University of Colorado at Boulder. During his time in school, Matt traveled through western Europe, studied abroad in Salamanca, Spain, and spent time in Israel. When not traveling, Matt spends his time learning to code, cofounding StudentJumpStart to connect campus entrepreneurs across disciplines, and create the first online accelerator. When not doing freelance wed design and development work for Colorado businesses, Matt likes to ski, play guitar, and swim.",
+													"image":"Matt_Fulton.jpg"
+
+													},
+													{"name": "Oliver Li",
+														"company": "Bioformix",
+														"logo":"",
+													"school": "University of Oklahoma",
+													"bio": "Oliver is an Industrial Engineering and Economics major at the University of Oklahoma in Norman, OK. He realized he wanted to pursue entrepreneurship from his intern experience at the Center for the Creation of Economic Wealth, where he helped developed a scalable method to provide clean drinking water in the Rift Valley of Ethiopia and led research for commercializing a fatty acid production process. He also worked in venture capital at the Oklahoma Life Science Fund. In his free time, he enjoys spending time with friends and family, traveling, experimenting with cooking, and following/playing basketball.",
+													"image":"Oliver_Li.jpg"
+
+													}
+							]
+						},
+						{"city":"Cleveland",
+							"people":[
+								{"name": "Brian Feldman",
+									"company": "Application Bootcamp",
+									"logo":"",
+								"school": "Washington University in St. Louis",
+								"bio": "Brian is a senior at Washington University in St. Louis where he is studying Philosophy-Neuroscience-Psychology, Classics, and Creative Writing. He grew up in Rhode Island and spent his summers working as the lead editor for Application Boot Camp, a premier college admissions consultancy, and as an educator at the Farm School, a sustainable agriculture program. In addition to studying abroad in Athens, Greece and at the University of Oxford, Brian has worked as a research assistant in three psychology labs, has conducted a study on infants' social preferences, and has authored an Ancient Greek exercise manual. Some of his interests include basketball, fonts, writing, and meeting new people.",
+								"image":"Brian_Feldman.jpg"
+								},
+								{"name": "Charlie Mohn",
+									"company": "Decision Desk",
+									"logo":"",
+								"school": "Georgetown University",
+								"bio": "Charlie is a senior at Georgetown University, where he is double majoring in Finance and International Business and minoring in Theology. Charlie also studied strategy and finance at the University of Oxford in the summer of 2011. At Georgetown, Charlie has been involved with the club tennis team, as well as Hilltop Consultants, a student group that does pro bono consulting projects for non-profit clients throughout the United States. Charlie has had internships in consulting, internet marketing, finance and sales. He also had the chance to work for Senator Maria Cantwell on Capitol Hill. He grew up in South Seattle, where he experienced how the entrepreneurial spirit can transform a community. Charlie enjoys running, biking, hiking and open water rowing in the Pacific Northwest. With the help of VFA, Charlie aspires to learn about urban development and revitalization while developing his business and leadership skills.",
+								"image":"Charlie_Mohn.jpg"
+
+								},
+								{"name": "Christopher Cusack",
+									"company": "Cleveland Cavaliers",
+									"logo":"",
+								"school": "Duke University",
+								"bio": "Chris Cusack studied public policy and economics at Duke University, though he has spent most of his collegiate career writing about sports in the office of The Chronicle, Duke's independent daily student newspaper, where he served as sports editor. He most recently interned in Northern Ireland at Lisburn People's Support Project, a community organization that aims to revitalize the local economy through microenterprise, where he helped write business plans and compile an oral history database of individual experiences during The Troubles. His interest in entrepreneurship, though, started as an intern at FindTheBest.com, a comparison search engine startup based in his hometown of Santa Barbara, Calif. In his free time, he enjoys pick-up basketball, playing the guitar, and following the San Francisco Giants.",
+								"image":"Chris_Cusack.jpg"
+								},
+								{"name": "Eric Olson",
+									"company": "GenomOncology",
+									"logo":"",
+								"school": "University of Virginia",
+								"bio": "The son of a nurse and mechanical engineer, Eric looked to combine the two fields by studying Biomedical Engineering at the University of Virginia. There he is designing a device to treat intractable epilepsy, collaborating with the Department of Neurology. While spending last summer diving head first into this project, he went to some of UVA's Darden School of Business incubator luncheons and realized nurturing young technologies and ideas was his passion. An avid Virginia sports fan and budding outdoorsman, Eric cherishes time spent tweaking his jump shot, snowboarding, and recently, climbing boulders in Joshua Tree.",
+								"image":"Eric_Olson.jpg"
+
+								},
+								{"name": "Mehves Tangun",
+									"company": "Linestream",
+									"logo":"",
+								"school": "Brown University",
+								"bio": "The son of a nurse and mechanical engineer, Eric looked to combine the two fields by studying Biomedical Engineering at the University of Virginia. There he is designing a device to treat intractable epilepsy, collaborating with the Department of Neurology. While spending last summer diving head first into this project, he went to some of UVA's Darden School of Business incubator luncheons and realized nurturing young technologies and ideas was his passion. An avid Virginia sports fan and budding outdoorsman, Eric cherishes time spent tweaking his jump shot, snowboarding, and recently, climbing boulders in Joshua Tree.",
+								"image":"Mehves_Tangun.jpg"
+
+								},
+								{"name": "Peter Spaulding",
+									"company": "Boxcast",
+									"logo":"",
+								"school": "Yale University",
+								"bio": "Peter is a Political Science major at Yale University. A Maryland native, Peter spent last summer at a Washington, D.C. education startup spearheading the development of the non-profit branch of the organization. The prior summer, he worked in the office of Congressman Steny Hoyer on Capitol Hill completing legislative research and managing correspondence with constituents. At Yale, Peter is a member of the varsity lacrosse team and a passionate contributor to numerous charitable activities and student outreach programs, one of which he manages. He looks forward to continuing his sporting and community service interests long after graduation. Some of Peter's other interests include boating, fishing, and cooking.",
+								"image":"Peter_Spaulding.jpg"
+
+								},
+								{"name": "Sam Roberts",
+									"company": "Paragon Robotics",
+									"logo":"",
+								"school": "Case Western Reserve College",
+								"bio": "Sam will graduate in May 2013 from Case Western Reserve University majoring in Mechanical Engineering, Physics, and History and Philosophy of Science. In between quite a lot of coursework, He found time to get involved with the Engineering Honor Society, and has been involved heavily in his fraternity, serving in numerous positions from Corresponding Secretary to Vice President. Additionally, he participated in two Cooperative Education internships, where he got out of the classroom and was able to tackle some real world problems. Sam enjoys playing ultimate Frisbee when he can and is an avid sailor. He's excited to be a part of the 2013 class of Venture for America.",
+								"image":"Sam_Roberts.jpg"
+
+								}
+							]
+						},
+						{"city":"Detroit",
+								"people":[
+									{
+										"name":"Alex Persky-Stern",
+										"company": "Stik",
+										"logo":"",
+										"school":"Wesleyan University",
+										"bio":"Alex is studying math-econ at Wesleyan University. Alex spent a summer in rural Honduras at a startup microfinance organization, where he became passionate about social enterprise. At Wesleyan, Alex has started several initiatives to bring social enterprise to campus, consulted for local social enterprises through his role as co-director of the Wesleyan Consulting Group, and talks about social enterprise all the time. In his spare time, Alex enjoys eating and sitting in the sun.",
+										"image":"Alex_Persky-Stern.jpg"
+									},
+									{"name": "Brennan Crispin",
+										"company": "iRule",
+										"logo":"",
+									"school": "University of Michigan",
+									"bio": "Brennan is a graduate of the University of Michigan School of Engineering, where he studied Engineering Physics. He recently returned from two years in Kenya with the Peace Corps, where he taught physics and chemistry in a small secondary school on Lake Victoria. During his college years he was involved in research on micro-scale power generation, cyborg insects, and lithium battery recycling. Brennan lead a student team that traveled to Guatemala to design and build foot powered water pumps. He was also a member of the Michigan Marching Band, where he played trumpet. Brennan's other interests include running, singing, pedagogy, and how technology can bring positive change to the lives of people around the world.",
+									"image": "Brennan_Crispin.jpg"
+
+									},
+									{"name": "Eleanor Meegoda",
+										"company": "Detroit Venture Partners",
+										"logo":"",
+									"school": "Princeton University",
+									"bio": "Eleanor graduated with honors in 2012 with a bachelor's degree in Public Policy and International Affairs. A passionate problem-solver, Eleanor spent most of her college summers working in Tanzania and South Africa where she learned from slum dwellers about the art and struggle of providing microfinance and organizing for better public services, access to loans, and political voice. Curious about the unintended consequences of grant-based funding, she interviewed non-profits across Malawi for her senior thesis to understand how they accessed funding and its effect on their relationship with government. On campus, she spearheaded the creation of “The Real Food Co-op”, a student communal cooking and dining cooperative, founded “Lotus Cafe”, a weekly wine-and-tea-filled dialogue for students to discuss personal and community issues, and partnered with fellow students to incite a campus-wide mental health movement. After graduation, she co-authored paper that develops a framework for understanding how different types of technology-enabled networks can be harnessed for international development. She then became a research associate at the Rockefeller Foundation. She loves capoeira, trying new foods, and good conversation.",
+									"image":"Eleanor_Meegoda.jpg"
+
+									},
+									{"name": "Eric Huang",
+										"company": "Stik",
+										"logo":"",
+									"school": "University of Notre Dame",
+									"bio": "Eric is a senior at the University of Notre Dame, where he is studying Entrepreneurship. Originally from the Washington, D.C. metropolitan area, Eric discovered his love for Entrepreneurship while working for a start-up in High School and through a pre-college entrepreneurship program at the University of Maryland. Eric has expressed his passion for technology by working with a web design and development business for the past seven years. Through internships and professional experience, Eric has also been given the opportunity to influence and understand how products are created giving him an understanding of the importance of User Experience Design in a start-up or any business. He also enjoys playing squash, playing video games, and coming up with (hopefully) world changing start-up concepts.",
+									"image":"Eric_Huang.jpg"
+
+									},
+									{"name": "Evan Brandoff",
+										"company": "Benzinga",
+										"logo":"",
+									"school": "University of Texas",
+									"bio": "Evan studies at The McCombs School of Business at The University of Texas, where he majors in Finance. A Long Island, New York native, Evan first became interested in Entrepreneurship in high school, when he founded and co-hosted the online sports radio talk show, “Sports Heaven With Mark and Evan.” Some of Evan's past summer internships have been with Marquis Jet Partners, Tequila Avion, and Goldman Sachs. Evan has spent his last two years of college interning for Raptor Accelerator, a venture capital firm, where Evan became embedded in the Austin startup community. Some of Evan's interests are traveling, playing and watching sports, and spending time with family and friends.",
+									"image":"Evan_Brandoff.jpg"
+
+									},
+									{"name": "Fiona O'leary-Sloan",
+										"company": "U3 Ventures",
+										"logo":"",
+									"school": "Washington University in St. Louis",
+									"bio": "Fiona will graduate in May 2013 from Washington University in St. Louis with a degree in Anthropology, Creative Writing, & Public Health. Passionate about women's issues and social change, she developed a non-profit advocacy campaign for sexual abuse survivors as an intern with Seattle's Intiman Theatre, and later went on to coach a basketball team in rural India, engage in STI/HIV prevention outreach work with Project ARK in St. Louis, intern with the World Health Organization in Fiji, teach sexual education courses in the favelas of Rio de Janeiro, Brazil, and work in the public diplomacy of global hunger with the U.S. Department of State in Rome, Italy. She competes nationally as a spoken word poet with WU-Slam and loves nothing more than a great conversation that spills into the wee hours. She enjoys spending time abroad, having lived a year each in Brazil and Italy, and is fluent in Brazilian Portuguese and Italian.",
+									"image":"Fiona_Sloan.jpg"
+
+									},
+									{"name": "Franklin Weldon",
+										"company": "Fontinalis Partners",
+										"logo":"",
+									"school": "Morehouse College",
+									"bio": "Franklin is a senior at Morehouse College with an Economics concentration. His interest in entrepreneurship began during his participation in the LEAD program at Dartmouth College in 2008 where he was exposed to numerous enthusiastic entrepreneurs. While an avid cello player and a guitarist for a number of Georgia bands, Franklin found time to join his school debate team who went on to secure three consecutive state titles, and recently a national title.",
+									"image":"Franklin_Weldon.jpg"
+
+									},
+									{"name": "Kate Catlin",
+										"company": "Grand Circus",
+										"logo":"",
+									"school": "Gonzaga University",
+									"bio": "Kate is studying economics and entrepreneurship at Gonzaga University, where she is a member of the Hogan Entrepreneurial Leadership Program. Her childhood hiking mountains in the Seattle area drew her attention early to sustainability issues. She has since spent a year lobbying for environmental education in DC and biked across the country to study national energy concerns. Recently she led a delegation representing US Youth to the UN Framework Convention on Climate Change in Doha, Qatar through SustainUS. After Kate spent a semester with a “micro-consignment” startup in Nicaragua, she became passionate about social enterprise and the private sector as a solution to address societal ills while creating jobs. Kate enjoys exploring new trails, countries, street food and microbrews.",
+									"image":"Kate_Catlin.jpg"
+
+									},
+									{"name": "Kwaku Osei",
+										"company": "Rock Ventures",
+										"logo":"",
+									"school": "Virginia Commonwealth University",
+									"bio": "Kwaku Osei earned his Bachelor of Science in Marketing from Virginia Commonwealth University (VCU) Honor's College, where he graduated Magna Cum Laude. Thereafter he joined Deloitte Consulting where he focused on technology, business process reengineering, strategic change and communications. In addition, he founded the Deloitte Entrepreneurship Community, a Deloitte community of practice focused on entrepreneurship as well as innovation that seeks to produce thought leadership and more successful entrepreneurial activity through a multi-faceted approach. Prior to joining Deloitte, Kwaku started 4 businesses in various industries; he hopes to use his increasingly growing experience and education to develop many more in the future.",
+									"image":"Kwaku_Osei.jpg"
+
+									},
+									{"name": "Matt Fish",
+										"company": "Quicken Loans",
+										"logo":"",
+									"school": "Oberlin College",
+									"bio": "Matt Fish double majored in Economics as well as Law and Society at Oberlin College. Matt has always shown interest in entrepreneurship. Following an internship with Detroit Venture Partners, Matt started his own company helping local businesses promote their services to the surrounding community. Matt has spent the last two years working closely with the startup Hired My Way performing a variety of roles in market research and financial modeling. When Matt isn't working he can be found participating in a variety of athletic activities. After winning a state championship in baseball during his high school years, Matt went on to play two years on Oberlin's baseball team.",
+									"image":"Matt_Fish.jpg"
+
+									},
+									{"name": "Mike Wilner",
+										"company": "BoostUp",
+										"logo":"",
+									"school": "Washington and Lee University",
+									"bio": "Mike (@mwil20), a Baltimore native, is a senior at Washington and Lee University where he is majoring in Mathematics and Business Administration. He developed an interest in Venture Capital and Entrepreneurship when he interned at a venture capital firm the summer after his Sophomore year. After an internship at JP Morgan the next summer, he decided to return to entrepreneurship and was drawn to VFA. At W&L, Mike has played basketball for two seasons, served as treasurer of his fraternity, and served as a student consultant for local businesses. His interests include playing basketball, watching the Ravens, listening to soul music (especially Mo-town), and (watching) standup comedy.",
+									"image":"Mike_Wilner.jpg"
+
+									},
+									{"name": "Rachel Hyman",
+										"company": "Detroit Labs",
+										"logo":"",
+									"school": "University of Chicago",
+									"bio": "Rachel is a Midwest native majoring in Geography at the University of Chicago. She is interested in the intersection of cities and entrepreneurship, and her favorite activity in any city is to explore. Rachel was a True Entrepreneur Corps Fellow in 2012, working as a marketing intern at Metamarkets in San Francisco. Rachel was also on one of the winning teams in Chicago Startup Weekend in 2011. Rachel is an active member of the literary community and founded the Anthology of Chicago, a project that aims to collect poems and stories that evoke the spirit of Chicago's many neighborhoods. She also co-founded and runs a lit blog (Banango Lit) and a lit journal (Banango Street), and writes poetry when she has a minute.",
+									"image":"Rachel_Hyman.jpg"
+
+									},
+									{"name": "Sean Jackson",
+										"company": "Rock Ventures",
+										"logo":"",
+									"school": "University of California Santa Barbara",
+									"bio": "Sean attempts to study Political Science while attending university at UC Santa Barbara, but inevitably spent most of his time rock climbing, cliff jumping, and fencing. Sean also serves in the United States Marine Corps Reserves as a Civil Affairs Advisor with 1st Civil Affairs Group in Camp Pendleton, California. He has supported the establishment of medical and dental clinics in Gonaives, Haiti; the rebuilding of an inuit village near Bethel, Alaska; and attended the Finnish Defence Forces crisis management course in Tuusula, Finland. Most recently, Sean supported economic and governance development initiatives in Helmand Province, Afghanistan while working with the civil-military Provincial Reconstruction Team to increase societal capacity and stability. Sean is passionate about economic development and has seen first hand how business ventures can change the fabric of a society, he hopes to apply the skill sets he learned abroad to tackling problems here at home. When not galavanting around the world, Sean enjoys making short films and embarrassing himself while trying to perform standup comedy.",
+									"image":"Sean_Jackson.jpg"
+
+									},
+									{"name": "Stella Safari",
+										"company": "Invest Detroit",
+										"logo":"",
+									"school": "Dartmouth College",
+									"bio": "Stella hails from eastern region of the Democratic Republic of Congo. She grew up in Silver Spring, Maryland and attended High Point High School where she served as the Student Body President. Stella is now a graduating senior at Dartmouth College. She studies Women's and Gender Studies and Mathematical Social Sciences. With a passion for gender issues and social equity, Stella developed initiatives to address gender issues in the Congo and at Dartmouth College. She has worked with start-up non-profits such as Falling Whistles and Global Grassroots, interned at the Center for Women and Gender, and the Center for International Private Enterprise. Stella believes in the power of entrepreneurship to drive social change. She has a passion for fashion and is looking forward to running her own (affordable) fashion empire in the future. Her ultimate goal is to be trailblazer in the business world and empower young women of all backgrounds to pursue their dreams.",
+									"image":"Stella_Safari.jpg"
+
+									},
+									{"name": "Steven Mazur",
+										"company": "Stik",
+										"logo":"",
+									"school": "North Carolina State University",
+									"bio": "Steven left Sterling Heights, Michigan to attend North Carolina State University as a Park Scholar, where he studies Chemical & Biomolecular Engineering. During his freshman year, Steven founded Triangle Youth Leadership Services, a youth leadership development organization dedicated to empowering and motivating high school students to create change within their communities. Through NC State's Engineering Entrepreneurs Program, Steven also started a telemedical company that efficiently connects emergency physicians to specialists and was recently named a StartingBloc Fellow. Steven spent semesters abroad in Istanbul and Cape Town and summers with ExxonMobil and an Army research center, and credits these experiences with inspiring him to revitalize Metro Detroit. Throughout his four years at NC State, he has also performed as part of the 350-member marching band.",
+									"image":"Steven_Mazur.jpg"
+
+									},
+									{"name": "Taylor Sundali",
+										"company": "Rock Ventures",
+										"logo":"",
+									"school": "Middlebury College",
+									"bio": "Taylor grew up in Sun Valley, Idaho and graduated from Middlebury College in 2012 with a degree in Economics. During high school, he was an internationally-competitive nordic skier and owned and operated his own window washing operation to finance athletic endeavors. At Middlebury, he was an active member in the residential life community serving as both a First Year Counselor and a Residential Advisor for Student Employees. He was also a varsity member of the Cross Country Skiing and Cross Country Running teams for the College. During this past year he worked as a business analyst at C&S Wholesale Grocers. His other interests include Hiking, Biking, swimming, cliff-jumping, building snow forts and eating great food.",
+									"image":"Taylor_Sundali.jpg"
+
+									}
+
+									]
+								},
+						{"city":"Las Vegas",
+							"people":[
+								{"name": "Adam Joseph" ,
+									"company": "Downtown Project",
+									"logo":"",
+								"school": "University of Virginia",
+								"bio": "Adam is studying Global Development and French at the University of Virginia, where he is a Jefferson Scholar. Originally from San Francisco, Adam has pursued his global interests in college by studying abroad in Paris and interning at Global Health Strategies, a media and communications strategy consulting firm in New York City. Outside of the classroom at UVA, Adam spends his time serving as an investigation coordinator in UVA's honor system, volunteering as a teaching assistant in ESL classes, coaching YMCA basketball, and leading Alternative Spring Break trips. His other interests include baseball, acting, road trips, and skiing.",
+								"image":"Adam_Joseph.jpg"
+								},
+								{"name": "Alison Sheppard",
+									"company": "Factorli",
+									"logo":"",
+								"school": "Massachusetts Institute of Technology",
+								"bio": "Ali will graduate from MIT this year with dual undergraduate and master's degrees in City Planning. Though she was born, raised, and educated in the Boston area, her wanderlust and curiosity have taken her across the country and around the globe to study urban problems and solutions. Throughout college, she has worked with a large governmental organization in Mexico City, a small non-profit in New Orleans, and multiple research groups at MIT. She has had the opportunity to study abroad in India, Senegal, and Argentina through a comparative studies program, participate in workshop and studio classes in China and Singapore, and implement sustainable development projects in Tanzania. She has returned from these opportunities with a passion for improving cities here in the US and a strong conviction that these improvements are often best made by passionate people, from the ground up.",
+								"image":"Ali_Sheppard.jpg"
+
+								},
+								{"name": "Astrid Schanz-Garbassi",
+									"company": "Turntable Health",
+									"logo": "",
+								"school": "Middlebury College",
+								"bio": "Astrid grew up in Larchmont, New York, and graduated from Middlebury College in 2012 where she majored in Physics and minored in Chinese. When she was not playing for the Women's Ultimate Frisbee Team, memorizing Chinese characters or giving tours to prospective students, Astrid could be found fulfilling her duties as president of “YouPower”: a bike-room she began on campus that produces electricity. She loves the project because it combines her passions for athletics and energy awareness, and convinced her that she wants to run her own business. After graduating, she decided to stay at Middlebury for a year to support and recruit for MiddCORE, an amazing summer course on entrepreneurship and innovation. An avid soccer player, runner, cycler and hiker, Astrid is also fond of word games, riddles and puzzles.",
+								"image":"Astrid_Schanz-Garbassi.jpg"
+
+								},
+								{"name": "David Roger",
+									"company": "The Downtown Project",
+									"logo":"",
+								"school": "Cornell University",
+								"bio": "David is a senior at Cornell University where he is studying Industrial Labor Relations. Before beginning his collegiate career, he took at gap year and lived in Buenos Aires, Argentina and Jerusalem, Israel to strengthen his foreign language skills. At college, David became enthralled with entrepreneurship, which led him to launch the Cornell branch of The Odyssey newspaper. The next summer he worked for Gust, an online platform to connect entrepreneurs with angel investors. David grew up in New York City, which afforded him the opportunity to eat and cook delicious foods–a primary passion of his. Despite his distance from the mountains, he also loves to ski.",
+								"image":"David_Roger.jpg"
+
+								},
+								{"name": "Jake Eichengreen",
+									"company": "Project 100",
+									"logo":"",
+								"school": "Wesleyan University",
+								"bio": "Jacob majored in the College of Social Studies, an interdisciplinary program in History, Government, Economics and Social Theory, at Wesleyan University. Jacob spent the past two summers studying post-conflict business development in East Africa, which has given him a profound appreciation for the link between businesses and the communities they operate in. At Wesleyan, Jacob helped establish and build an entirely student run cafe that has proved to be immensely popular on campus. In his free moments, Jacob enjoys snowboarding, mountain biking, fishing, gypsy jazz guitar, a good barbecue, and is looking forward to finishing his private pilot's license sometime in the near future.",
+								"image":"Jake_Eichengreen.jpg"
+								},
+								{"name": "Jim Plew",
+									"company": "The Downtown Project",
+									"logo":"",
+								"school": "Indiana University",
+								"bio": "Jim is studying Finance and International Studies at the Indiana University Kelley School of Business. A native of Indianapolis, Jim has grown up studying, training, and eventually teaching martial arts in his local community. Throughout college he has worked on a collaborative research project at the IU School of Medicine, spent a semester as an intern at Merrill Lynch, and studied abroad in England at the University of Oxford. Though he'd originally planned to pursue a career in Investment Banking, he discovered his passion for startups after receiving university funding and support to develop a software venture on campus. In his free time, Jim enjoys dabbling in graphic design, having deep conversations, and expanding his appreciation for music and literature.",
+								"image":"Jim_Plew.jpg"
+
+								},
+								{"name": "Patrick McAnaney",
+									"company": "The Downtown Project",
+									"logo":"",
+								"school": "Rice Univerity",
+								"bio": "Patrick graduated from Rice University in 2010 with a degree in History and Policy Studies. He traveled to Brazil in 2011 on a Fulbright scholarship to study waste-picker cooperatives and stayed there afterward to help build a start-up social enterprise in the sector. At Rice, Patrick served as president of the Student Association and founded the Rice Endowment for Sustainable Energy Technology, which sponsors energy initiatives across campus. He studied abroad in Bolivia in 2008, where he researched the use of solar energy in rural development. He also performed field research in Nicaragua for his senior thesis on U.S. foreign aid programs in the country. Patrick's interests include piano, foreign languages, marathon running, college sports, current events, and hiking. He provides regular commentary about waste-picker issues and economic development in Brazil on his blog, “Patrick Talks Trash”.",
+								"image":"Patrick_McAnaney.jpg"
+
+								},
+								{"name": "Shilpi Kumar",
+									"company": "Qualifyor",
+									"logo":"",
+								"school": "Duke University",
+								"bio": "Shilpi (@_shilpikumar) aspires to be a game-changer. After hearing Andrew Yang speak at the DNC, she decided to pursue entrepreneurship and couldn't be more excited to join VFA. At Duke, Shilpi has taken an interdisciplinary approach to studying human decision-making, with a focus on neuroscience and economics — but really spent most of her time over-committing to student organizations and creating life-long friendships. She has worked for a social media firm in Paris, a blog advertising startup in Durham, and the UN Women office in Reykjavik. Most recently, Shilpi was an advertising operations summer intern at LinkedIn. Shilpi is passionate about revitalizing American cities, bolstering corporate social responsibility, and creating substantive leadership opportunities for women.",
+								"image":"Shilpi_Kumar.jpg"
+
+								}
+
+								]
+							},
+						{"city":"New Orleans",
+							"people":[
+								{"name": "Alex Rawitz" ,
+									"company": "Idea Village",
+									"logo":"",
+								"school": "Cornell University" ,
+							  "bio": "At Cornell Alex studied History with a focus on International Relations and the Cold War, but he did most of his learning in the various business he was a part of and as a leader in the storied Cornell Greek system. He worked on the business team of the Cornell Daily Sun; was Operations Manager for Ithaca's largest full service shipping and storage company, Big Red Shipping and Storage; and continues to work as the Business Manager for the Cornellian yearbook. As the Vice President of Recruitment for the Interfraternity Council Alex worked to promote the positive values and lessons of Greek life in the face of growing national criticism. When he isn't working, you can find Alex in the gym, on the basketball court, or relaxing at his second home overlooking Cayuga Lake, Sigma Pi.",
+							  "image": "Alex_Rawitz.jpg"
+								},
+								{
+									"name": "Alexander Bea",
+									"company": "Voodoo Ventures",
+									"logo":"",
+									"school": "Middlebury College",
+									"bio":"Alex is majoring in Mathematics and Economics at Middlebury College. He spent two summers creating sustainable fishing models at the Caltech Department of Economics, and he currently interns with a startup incubator called the Vermont Center for Emerging Technologies. When Alex isn't meeting with entrepreneurs, he's working on Jiminy, his project that produces cricket-infused energy bars that give children the protein and iron they need. Each bar purchased helps fund cricket farms in Kenya that give these same critical nutrients to children that need them dearly. In his spare time, Alex enjoys playing volleyball and soccer, and on the weekends, some know him as DJ Beawulf.",
+									"image":"Alex_Bea.jpg"
+								},
+								{"name": "Alexandra Snedeker",
+									"company": "Green Coast Enterprises",
+									"logo":"",
+								"school": "University of North Carolina",
+								"bio": "Alex is a senior at the University of North Carolina studying Environmental Science and minoring in Marine Science. A Cary native, she discovered her passion for sustainability through her interactions with local decision-makers in the field and her fascination with the endless connections between human actions and natural processes. In addition to participating in multiple research experiences, including an honors thesis in bacterial ecology and a month-long research cruise, she is interested in social issues, conducting outreach for a poverty eradication organization and chairing an environmental justice organization. Last summer, she developed a youth education program for a community that has lived for decades with a municipal landfill in its backyard with the goal of developing the next generation of scientists and community activists. As a four-term Sustainability Office intern, she helps manage the office's outreach and events and loves to network with student and departmental leaders. Her other interests include SCUBA diving, spontaneous road trips, reading long novels, and sewing her own clothes.",
+								"image":"Alex_Snedeker.jpg"
+
+								},
+								{"name": "John Yarchoan",
+									"company": "Resource Environmental Solutions",
+									"logo":"",
+								"school": "Amherst College",
+								"bio": "John is a senior at Amherst College, where he studies economics and political science. A captain of the men's ultimate frisbee team and founder of a lampoon newspaper, John also has a passion for meteorology, which he has followed by interning at the National Oceanic and Atmospheric Administration (NOAA) and trading weather commodities. He enjoys things that happen outside, such as skiing, hiking, and thunderstorms, in addition to things that make him laugh. He also believes strongly in VFA's social mission to revitalize American cities through entrepreneurship.",
+								"image":"John_Yarchoan.jpg"
+
+								},
+								{"name": "Max Walters",
+									"company": "CMG Enterprises",
+									"logo":"",
+								"school": "Boston College",
+								"bio": "Maxwell is a senior at Boston College, studying in the Carroll School of Management with a concentration in Information Systems. He is a native of Southern California where he was fortunate to spend the majority of his life outdoors, especially on the baseball fields. After moving east for college and embracing the differences in climate, culture, and history, Maxwell is constantly seeking new life experiences. He believes that the value of these experiences lives in the more nuanced perspective with which one sees the world, work, and life everyday. His time in college has been one of self-discovery, where he cultivated his belief in the power of entrepreneurship, environmentally sustainable initiatives, and the importance of informed conversations on the problems facing society. Through his experience working at start-up companies and at home with his family, Max has found the most fulfillment from work in the development of an idea from inception to realization. His free time is spent listening to and discovering music, reading, playing pick-up games of any sport, practicing yoga and exploring.",
+								"image":"Max_Walters.jpg"
+
+								},
+								{"name": "Zubin Teherani",
+									"company": "ID Scan",
+									"logo":"",
+								"school": "Georgetown University",
+								"bio": "Zubin is a senior at Georgetown University, where he is majoring in Government and minoring in Chinese and Business. Zubin's parents are originally from Hong Kong and Iran, but he considers himself a proud Texan. While at Georgetown, Zubin has studied abroad in China and Spain, where he discovered his love of languages. He also worked for the Corp, which is the largest completely student-run business in the US, and was president of Compass Strategy Advisors, which is an organization that promotes social entrepreneurship by helping students start social businesses. Zubin was also actively involved in welcoming new students to campus as a New Student Orientation leader and also helped lead a freshman retreat program called ESCAPE. His other interests include basketball, Hip-Hop dancing, and parkour.",
+								"image":"Zubin_Teherani.jpg"
+								}
+							]
+						},
+						{"city":"Philadelphia",
+							"people":[
+								{"name": "Chris Cruz-Guzman",
+									"company": "Curalate",
+									"logo":"",
+									"school": "University of Pennsylvania",
+									"bio": "Chris is a senior at University of Pennsylvania where he is studying Urban Studies and Philosophy, Politics, and Economics. He grew up in Minnesota and New York, and spent his summer working for Credit Suisse on the Sales and Trading Floor. Chris has started several ventures at Penn, such as PennCycle, Penn's first bike share, and the UPenn Memory Team, which competes in the USA Memory Championship. He has also served on the Undergraduate Assembly, performed with Onda Latina dance troupe, chaired the United Minorities Council, and is part of Alpha Phi Omega Service Fraternity. Some of his interests include salsa dancing, memory training, blogging, and meeting new people.",
+									"image":"Chris_Cruz.jpg"
+								},
+								{"name": "Eli Schwarz",
+									"company": "LeadiD",
+									"logo":"",
+								"school": "Haverford College",
+								"bio": "Born in Washington, DC, Eli moved to Winston-Salem, North Carolina, when he was eleven years old. He attended R.J. Reynolds High School and was elected class president for three consecutive years. Currently a senior economics major at Haverford College, he has played on the varsity basketball team every year. Eli's senior thesis investigates the relationship between athletic motivation and labor market outcomes, measured by income and employment status. Eli recognized his passion for entrepreneurship this past summer while working for Brad Aronson, a successful young businessman who hired Eli to use SEO and social media campaigns to drive traffic to his startup blog, bradaronson.com. Eli's immersion into the Philadelphia startup community led him to attend a Hackathon event where he competed on a team of entrepreneurs to develop a business and win seed money. His growing interest in entrepreneurship led him to work for an education startup (LLESSInc) and an innovative basketball-specific apparel startup (POINT3). Eli is also a mentor for Startup Corps, teaching high school students about entrepreneurship and coaching them as they develop their own businesses. He recently began working with two of his friends to develop an iPhone application and looks forward to developing more innovative endeavors as a Fellow.",
+								"image":"Eli_Schwarz.jpg"
+
+								},
+								{"name": "Kate Leisy",
+									"company": "Curalate",
+									"logo":"",
+								"school": "Vanderbilt University",
+								"bio": "Kate is a senior at Vanderbilt University majoring in Human and Organizational Development and French and the Creative Arts. Having aspired to be everything from a Food Network star to a travel photographer, she could not be more excited to join VFA and channel the inner entrepreneur that she has always dreamed to be. Spending her past two summers interning at Ernst & Young and Warner Music Group, her Vanderbilt days have involved everything from writing for the student newspaper to being social chair of her sorority to co-founding a company, HeyBazaar, which serves as a unique classifieds website for members of the Vanderbilt community. With a love for photography, you can often find her people watching in coffee shops or roaming the streets capturing photos to add to her portfolio. In her free time, she enjoys sampling at Whole Foods, kickboxing, and reading music blogs.",
+								"image":"Katherine_Leisy.jpg"
+
+								}
+								
+							]
+						},
+						{"city":"Providence",
+							"people":[
+								{"name": "Allison Shea",
+									"company": "Teespring",
+									"logo":"",
+								"school": "St. Lawrence University",
+								"bio": "Alli is a senior and currently studies Creative Writing and Rhetoric at St. Lawrence University in Northern New York. She is a self-described “student government geek,” having served as the organization's student life chair, and eventually vice president. She's interned for a healthy eating initiative for kids, a hospitality start-up in Brooklyn, and in her university's communications office, where she worked extensively on clients relations, event-planning, and marketing. Prior to her junior year, Alli cycled across country with Bike & Build, raising money and awareness for affordable housing. This inspired her to be involved in the movement to create more employment opportunities, especially in lower-income cities. When she's not snowboarding or riding her bike around town, Alli enjoys meeting new people, cooking for friends, and all other things adventure.",
+								"image":"Alli_Shea.jpg"
+
+								},
+								{"name": "Andrew Jankowski",
+									"company": "Andera",
+									"logo":"",
+								"school": "Dartmouth College",
+								"bio": "Andrew is a senior at Dartmouth College. He grew up in New London, New Hampshire, and went to high school at Phillips Exeter Academy. He is currently studying Engineering modified with Studio Art and minoring in Computer Science, and he will graduate in June. When he is not busy playing golf for the varsity team, he can be found in the project lab, the computer lab, or grilling burgers with friends outside of his fraternity (Beta Alpha Omega) where he just finished his term as Vice President. He has empathy for users with real world needs and a passion for constructing elegant solutions. His interests include product design, industrial design, mobile applications, user experience design, and photography. He hopes to one day start his own golf putter and apparel company.",
+								"image":"Drew_Jankowski.jpg"
+
+								},
+								{"name": "Avery Houser",
+									"company": "Teespring",
+									"logo":"",
+								"school": "Brown University",
+								"bio": "Avery is a senior at Brown University where he studies English, focusing on American literature. He is a jack of many trades, having interned in advertising, finance, publishing, film, and recently at Sir Kensington's, a ketchup startup. At Brown he edits Paper & Pixel, the school's only photography magazine. Avery has also taught sex-ed at a Providence public school, and contributed his writing and photography to a handful of campus publications. He grew up in New York City but took a semester off of school to live in Portland, OR and brew beer. He enjoys making all kinds of things, playing tennis, and cycling.",
+								"image":"Avery_Houser.jpg"
+
+								},
+								{"name": "Ben Goldstein",
+									"company": "Transitioning Jobs",
+									"logo":"",
+								"school": "Princeton University",
+								"bio": "Ben is a senior at Princeton University studying mostly Chinese in the East Asian Studies department. He made some extra cash in high school selling candy and flipping old guitars on eBay, and he's been hooked on entrepreneurship ever since. His summers have been spent splitting time between picking up language skills in China and making things happen for a handful of start-ups on both coasts. In his spare time, he likes to shoot pool and dream about waves.",
+								"image":"Ben_Goldstein.jpg"
+
+								},
+								{"name": "Claire Kim",
+									"company": "Swipely",
+									"logo":"",
+								"school": "Harvard University",
+								"bio": "Claire is a senior studying Social Studies at Harvard University. Though she always envisioned that she would study English and eventually become a writer, Claire fell in love with politics after a six month gig working as a community organizer for a New Hampshire congressional campaign in 2010. Since then, she has developed an internship program for Senator Elizabeth Warren's campaign and produced materials and social media content for Rootstrikers, an organization that seeks to combat political corruption caused by special interest money. At Harvard, Claire invests most of her time in various public service organizations, though she also works as a tour guide, leads backpacking trips for freshmen, and is a member of Delta Gamma Fraternity. Claire enjoys spoken word poetry, making/listening to music, adventuring, and doing anything outdoors.",
+								"image":"Claire_Kim.jpg"
+
+								},
+								{"name": "Frank Teng",
+									"company": "Maker Media",
+									"logo":"",
+								"school": "Yale University",
+								"bio": "Frank graduated from Yale University, majoring in Psychology. He is passionate for all types of learning and exploring, and has extensive interests in graphic design, 3D printing, and backpacking across continents. Frank is a member of Sigma Chi, and serves on the National Alumni Relations Committee. Born and raised in LA, he hopes to retire in a beach house one day.",
+								"image":"Frank_Teng.jpg"
+
+								},
+								{"name": "Giuseppe Crosti",
+									"company":"Social Providence",
+									"logo":"",
+								"school": "Duke University",
+								"bio": "Giuseppe grew up in Milan, Italy, and moved to the United States to attend Duke University. Now a senior, he studies Biology and Political Science, and divides his time on campus between working in a developmental biology lab, playing the violin in the Duke Symphony Orchestra, and the occasional golf or soccer tournament. He developed an interest in entrepreneurship during the summer of 2012, when he worked as a marketing intern at Wiredset, an internet startup in New York City. Keen to explore new and different cultures, he has travelled extensively throughout Europe, the United States, and the Middle East, and has studied abroad in South Africa.",
+								"image":"Giuseppe_Crosti.jpg"
+
+								},
+								{"name": "Jon Hills",
+									"company":"Ximedica",
+									"logo":"",
+								"school": "Brown University & RISD",
+								"bio": "Jon graduated from the Dual Degree Program at Brown and RISD with a BS in Mechanical Engineering and a BFA in Furniture Design. Always interested in finding new ways to merge the fields of Engineering and Design, his ambition is to design useful and accessible objects whose beauty comes from the elegance of an optimized structure and manufacturing process. When he's not in the studio or the lab, he can be found playing Ultimate Frisbee wearing a stylish trucker hat.",
+								"image":"Jon_Hills.jpg"
+								},
+								{"name": "Michael Cunningham",
+									"company":"Social Providence",
+									"logo":"",
+								"school": "University of Pittsburgh",
+								"bio": "Cincinnati-native Mike Cunningham (@mikejcunn) is a senior at the University of Pittsburgh majoring in Bioengineering. He has never had a dull moment at Pitt, playing three years of club volleyball, singing in four a cappella groups on campus, and also completing two years of research in regenerative medicine. He also has completed internships in auto accident reconstruction, business marketing, and oncology research. In his spare time, he plays in two acoustic duos, Bailey Park and Mike & Danny, helps run the Music Engineering Lab (MEL) at the Swanson School of Engineering, and enjoys supporting live and local music. He loves trying and cooking new foods, being outdoors, and meeting new people.",
+								"image":"Mike_Cunningham.jpg"
+
+								},
+								{"name": "Rachel Apostoles",
+									"company":"Focal Upright Furniture",
+									"logo":"",
+								"school": "Duke University",
+								"bio": "Rachel is a senior at Duke University studying Spanish and Policy Journalism/Media Studies. Rachel's entrepreneurial interests were first kindled when she started a cookie company with her sister in high school. Since then, she has cultivated her business sense by interning in diverse work environments including a PR firm in NYC, a magazine in Durham, North Carolina, and a naval shipyard in Newport News, Virginia. Outside of the classroom, Rachel is an indoor cycling instructor and volunteers with Girls on the Run, a program that teaches 8 to 13 year-old girls life skills through running. She could not be more excited about gearing up with VFA.",
+								"image":"Rachel_Apostoles.jpg"
+
+								},
+								{"name": "Thomas Lynam",
+									"company":"Teespring",
+									"logo":"",
+								"school": "Yale University",
+								"bio": "Tom (@tomlynam) is a senior at Yale University where he is pursuing a double major in German and environmental engineering. He hails from Alexandria, Virginia, where in 2009 he graduated salutatorian from T.C. Williams High School (of “Remember the Titans” fame). Tom has held several part time jobs on campus, including managing digital media for Open Yale Courses and writing content for the Yale Sports Publicity Department. He is a member of the Yale heavyweight crew team, and also plays the alto saxophone in a pops orchestra on campus. Tom holds dual citizenship with the U.S. and Ireland and competed for the Irish National Team at the 2012 World Rowing Under 23 Championships and the 2012 World University Rowing Championships.",
+								"image":"Tom_Lyman.jpg"
+
+								},
+								{"name": "Zoe Chaves",
+									"company":"Splitwise",
+									"logo":"",
+								"school": "Brown University",
+								"bio": "Zoe is a senior at Brown University, where she studies Architectural Studies with an urban planning focus. She takes courses in the Political Science, Urban Studies, Public Policy and Public Health departments because she's interested in how cities tick, change and thrive. She has engaged heavily with the city of Providence throughout her time at Brown, working to grow the local chapter of the non-profit Health Leads and leading a team of undergraduates studying health disparities in Providence. She spent a semester abroad travelling between Brazil, South Africa and Vietnam to study urban planning and governance in nations with developing economies. Zoe's hobbies include reading, creative writing and cooking.",
+								"image":"Zoe_Chaves.jpg"
+
+								}]
+
+							}]
+		},
+		"2014":{"year":2014,
+		 "people":[{
+			 "name":"Alex Yamamoto",
+			 "school": "Boston University",
+			 "bio":"Alex is studying Marketing and Finance at Boston University's School of Management with a minor in Psychology. After having internships at corporations like Micron Technology and Under Armour, he hopes that a startup culture an provide the fast-paced, fulfilling, and fun work environment that he desires. Working at Crimson Hexagon, a social media analytics startup in Boston provided exactly that, where he transformed social data into engaging content on the company blog. At Boston University, he has held many leadership roles within the business fraternity, Alpha Kappa Psi, as well as serving as a Career Peer mentor for younger students. His interests include the poetics of rap music, online education platforms, and playing pick-up basketball.",
+			 "image":"Alex_Yamamoto.jpg"
+			 },
+			 {
+				 "name":"Alexa Wilcox",
+				 "school":"Macalester College",
+				 "bio":"Alexa graduated from Macalester College in St. Paul, MN, with a dual degree in International Studies and Geography. Passionate about social ventures and poverty alleviation, Alexa interned at USAID as a Congressional and Events/Protocol Intern in Washington D.C., worked for the startup FINNEGANS, a social venture which produces high quality beer, as an entrepreneurship/GIS intern in Minneapolis, won a grant of $7,500 for the international non-profit Rising Minds and then served as the Summer Regional Director for the organization in Guatemala. Recently, she completed a fellowship with Accion International, working with a for-profit bank in Guatemala. In her free time, Alexa enjoys rock climbing, boxing, playing soccer, learning Mayan languages, and exploring new cities.",
+				 "image":"Alexa_Wilcox.jpg"
+			 },
+			 {	 "name":"Alexander Baca",
+			 	 "school":"Washington & Lee University",
+				 "bio":"Alex (@Toivikki) will graduate from Washington & Lee University with a major in Computer Science and concentrations in Chemistry, Engineering, and Business. At W&L, he founded and led both the Club Swimming Team and a chapter of the Association for Computing Machinery. Alex also founded SOS4Cancer, a DC based non profit organization determined to improve the lives of teens and children fighting cancer through the efforts of their peers. For the past two summers, he has explored different fields in computer science ranging from emotion recognition to distributed cyber security. His passion for entrepreneurship allowed him to participate in the 2014 National Student Advertising Competition. Most recently, Alex consulted on the development of new markets for SourceFuse, a digital product development​ startup based in Florida. Alex ​is an accomplished violist, violinist, and singer; an avid outdoorsman and swimmer; and a formidable board game opponent.",
+				 "image":"Alexander_Baca.jpg"
+			 },
+			 {	 "name":"Andrew Jones",
+			 	 "school":"University of Virginia",
+				 "bio":"Andrew is studying biomedical engineering at the University of Virginia, where he gained experience in undergraduate research and device design. After a bit of soul searching, Andrew discovered his true passion for agriculture and sustainability during his third year and has since shifted his focus from medical school to agriculture. He spent the following summer interning on a permaculture and biodynamic farm in Accomac, VA, where his passion only deepened. Upon returning for his final year, Andrew decided to pursue a capstone project that merged his newfound interest with biomedical engineering, while also solving a large real world problem. His research assessed the effectiveness of treating human waste with black soldier fly larvae for use in developing countries around the world. Andrew's ultimate career goal is to own and operate his own diversified alternative farm by 2020. In his spare time, Andrew spends his free time cooking, reading, homebrewing, working on personal projects and spending time outdoors.",
+				 "image":"Andrew_Jones.jpg"
+			 },
+			 {	 "name":"Ari Fine",
+			 	 "school":"Cornell University",
+				 "bio":"Ari graduated from the College Scholar program at Cornell, where he designed his own major focusing on the intersection of psychology, finance and the art market. During college, he held a variety of campus-wide leadership roles, including running the Cornell Entrepreneurship Organization and spearheading the group's elevator pitch competition. Ari's experiences outside the classroom have provided him with both a broad understanding of financial markets and large corporations, as well as hands on exposure to the day-to-day challenges facing small businesses. Ari's prior work experiences have included consulting with South African entrepreneurs from historically disadvantaged communities in helping them grow and develop their small businesses and serving as an investment-banking intern at a global bank. Notwithstanding his New England roots, Ari is a diehard Pittsburgh Steelers fans.",
+				 "image":"Ari_Fine.jpg"
+			 },
+			 {	 "name":"Armando Ochoa",
+			 	 "school":"University of Florida",
+				 "bio":"Armando will graduate from the University of Florida with a major in Finance and three summers of experience on Wall Street. After an eye-opening semester abroad in Prague where he gained new perspectives and developed a sense of adventure, he returned to New York to work on the leveraged buyout of Dell and received a full time investment banking offer. He had a last minute change of heart and chose instead to pursue a career in entrepreneurship and a lifelong adventure in changing the world. Armando is the author of a popular finance internship guide and enjoys reading, watching movies, traveling, and stepping outside of his comfort zone.",
+				 "image":"Armando_Ochoa.jpg"
+			 },
+			 {	 "name":"Austin Mertz",
+			 	 "school":"Brown University",
+				 "bio":"Originally hailing from Lancaster, Pennsylvania, Austin is studying Economics at Brown University. Seeking to apply his education in meaningful ways, he has contributed to research studies on economic development as well as high-impact entrepreneurship. He first gained hands-on start-up experience working as a financial coach for a microfinance fund in Providence, Rhode Island. In his spare time, Austin is an avid backpacker, ultimate frisbee player, Philadelphia sports fan, and lover of all things trivia-related.",
+				 "image":"Austin_Mertz.jpg"
+			 },
+			 {	 "name":"Austin Rhoads",
+			 	 "school":"Elon University",
+				 "bio":"Austin will graduate from Elon University with a dual major in Marketing and International Business and a minor in Spanish. An accomplished musician and founder of three small businesses, Austin is passionate about learning and solving complex problems. At Elon, he led the Model United Nations Society and served as the Co-Director of the inaugural Elon International Career Conference. Austin spent two semesters studying and working in Seville, Spain, where he conducted research on the entrepreneurial ecosystems of Southern Europe. In his free time, Austin enjoys photography, skiing, traveling, and playing the drums.",
+				 "image":"Austin_Rhoads.jpg"
+			 },
+			 {	 "name":"Avery Hairston",
+			 	 "school":"Cornell University",
+				 "bio":"Avery will graduate from Cornell University with a degree in Art History. While his academic career was rooted in the humanities, he gained a variety of business experiences outside of the classroom. Before starting college, he founded an environmental non-profit in his hometown of New York City. The charity, RelightNY, received both local and national attention and gave Avery invaluable lessons in brand management and business development. Over the past three summers, Avery has worked for companies ranging from international firms to early-stage startups. In 2011, he interned for Alloy in branded content. The following year, Avery worked as an account planner at JWT, a global ad agency, where he helped clients engage their millennial audience. This past summer, Avery pursued his passion for filmmaking, working part-time as a video production assistant for VICE on HBO. The very same summer, Avery worked in content creation at Tapestry, a start-up app company out of the New York based tech incubator, Betaworks. While he is not honing his creative and marketing skills on the job, Avery enjoys playing piano and basketball.",
+				 "image":"Avery_Hairston.jpg"
+			 },
+			 {	 "name":"Ben Platta",
+			 	 "school":"Northwestern University",
+				 "bio":"Ben is a Midwestern man who recently finished up at Northwestern University where he studied Math and Economics. During his time at NU, he worked at the student union as a manager, played club soccer, worked for a software startup in Chicago and directed a tech student group focused on civically responsible solutions and empowering others with technology. He thinks the time is ripe for positive and impactful startups and he's excited to be joining a like-minded community at VFA.",
+				 "image":"Ben_Platta.jpg"
+			 },
+			 {	 "name":"Ben Snowdon",
+			 	 "school":"Duke University",
+				 "bio":"Ben is currently pursuing a dual major in Biomedical Engineering and Electrical and Computer Engineering at Duke University. The same passion for building things that lead him to study engineering now brings his focus to entrepreneurship. Ben has experience working for medical device and semiconductor companies. He serves as President of the Engineering World Health Club at Duke, where he organizes efforts to repair and develop medical equipment for low-resource settings. He also leads a team of students providing pro-bono consulting services for non-profits and startups as part of Duke Community Consulting. Ben has a penchant for outdoor activities, particularly hiking and skiing.",
+				 "image":"Ben_Snowdon.jpg"
+			 },
+			 {	 "name":"Brendan Rice",
+			 	 "school":"University of Wisconsin - Madison",
+				 "bio":"Brendan is studying Marketing & Entrepreneurship at the University of Wisconsin – Madison. Originally from Boulder, Colorado, his interest in entrepreneurship began in high school when he co-founded a landscaping business called “Two Guys and a Rake”. During his time at college he earned the Stoiber Entrepreneur Scholarship, allowing him to work at a local startup company specializing in educational game development. As President of the University's Student Business Incubator, he was passionate about supporting student businesses and growing the entrepreneurial community at the University of Wisconsin. In his spare time he can be found snowboarding around the mountains of Colorado, backpacking in the wilderness, and traveling the world.",
+				 "image":"Brendan_Rice.jpg"
+			 },
+			 {	 "name":"Brian Schwartz",
+			 	 "school":"Northeastern University",
+				 "bio":"Brian will graduate from Northeastern University with a degree in International Business, concentrating in Finance with a minor in International Affairs. Through Northeastern's Co-op Program, Brian completed three six month stints at companies in the investment technology, biotech, and cloud consulting industries. From his home outside Seattle, Brian's journey has included school in Boston, photography and art history classes in Venice, a full year of studying and working abroad in Dublin, and finally working in New York City. While on campus Brian was involved in intramural sports, Entrepreneur's Club, and he served as the Vice President of Finance for his fraternity, Sigma Phi Epsilon. Brian's burgeoning passion for entrepreneurship led him to participate in the Husky Startup Challenge, winning Audience Favorite at Demo Day. Growing up in the Northwest has left him with an appreciation for the outdoors and he continues to enjoy photography, soccer, and discovering new music.",
+				 "image":"Brian_Schwartz.jpg"
+			 },
+			 {	 "name":"Carolyn Jones",
+			 	 "school":"Northwestern University",
+				 "bio":"Carolyn grew up hiking, rock climbing, and white water kayaking with her sisters in the mountains of East Tennessee. She will graduate from Northwestern University in 2014 with a degree in Mechanical Engineering. During her time at Northwestern, she reconstructed and rejuvenated the school's Baja car racing team as project manager in the Society of Automotive Engineers and worked as an instructor in the Mechanical Engineering prototyping lab. She also worked as a full-time RA for a year in the student residence halls, and spent a summer in France improving her fluency in French through immersion in the local culture. Throughout college she was a devoted member of the sailing team and competed throughout the Midwest. In her free time she enjoys dance, and studio art with a focus in drawing. She loves traveling, and exploring, creating new things, and fixing old ones.",
+				 "image":"Carolyn_Jones.jpg"
+			 },
+			 {	 "name":"Catherine Gans",
+			 	 "school":"Vanderbilt University",
+				 "bio":"Catherine will graduate from Vanderbilt University with a degree in French and Political Science. In the summer of 2011, she traveled to India, a trip that inspired a love of travel and passion for social change that would lead her all across Europe, Bali, Northern India, and Israel. At Vanderbilt, she edited the literary magazine, mentored college-age students with intellectual disabilities, and worked as a campus ambassador for BRAC. She was also lucky to become a part of the Nashville yoga community, writing content for yoga outreach organizations like Small World Yoga and the Africa Yoga Project and teaching classes at Vanderbilt and a local studio.",
+				 "image":"Catherine_Gans.jpg"
+			 },
+			 {	 "name":"Charlie Molthrop",
+			 	 "school":"Duke University",
+				 "bio":"Charlie hails from Duke University where he caught the alternative energy bug, eventually switching into Duke's School of Engineering to better understand how to solve energy challenges. His interest in hands-on learning has led him to various endeavors including scrambling through local crawlspaces and climbing a 50ft plastic bubble of pig-produced biogas. Charlie's knack for creativity spills over into his other endeavors which include writing and performing sketch and stand-up comedy.",
+				 "image":"Charlie_Molthrop.jpg"
+			 },
+			 {	 "name":"Chisom Uche",
+			 	 "school":"Washington University at St. Louis",
+				 "bio":"Chisom will graduate from Washington University in St. Louis with a major in Psychology and minors in Legal Studies and Entrepreneurship. He found his passion for entrepreneurship when he spent his sophomore summer working as a marketing intern at Off Campus Media, a local startup in St. Louis. At Off Campus Media, he worked on the national rollout of their social media application, Bonfyre. During his senior year, he worked as a marketing and communications intern for the St. Louis Surge, a women's semi-professional basketball team. Chisom is an avid basketball player and, during his leisure time, he enjoys watching movies and playing sports.",
+				 "image":"Chisom_Uche.jpg"
+			 },
+			 {	 "name":"Christian Britto",
+			 	 "school":"Duke University",
+				 "bio":"Christian is studying at Duke University where he majored Economics and was a member of the Track and Cross Country teams. His interest in entrepreneurship really started after freshmen year when he got the opportunity to intern at a startup in San Francisco and has continued as he has gotten more involved in the vibrant startup community around Durham, NC. Christian is passionate about helping revitalize American cities and is thrilled to be joining VFA.",
+				 "image":"Christian_Britto.jpg"
+			 },
+			 {	 "name":"Danny Allen",
+			 	 "school":"University of North Carolina - Chapel Hill",
+				 "bio":"Danny is a senior at the University of North Carolina at Chapel Hill majoring in Business Administration and Political Science, and minoring in Environmental Studies. Born and raised in Greensboro, NC, his academic pursuits focus on the intersection of business, government, and environmental sustainability, with particular interest in transportation and how we interact with the built environment. During his time at UNC, Danny co-founded Tar Heel Bikes, UNC's bike-sharing program, and currently leads its student steering committee. He also developed content and marketing strategy for g-bit.com, a start-up market research website for green business. In his free time, you can find Danny riding his bike around town, reading, watching movies, playing tennis, or Wikipedia-bingeing.",
+				 "image":"Danny_Allen.jpg"
+			 },
+			 {	 "name":"Danny Garfield",
+			 	 "school":"Brown University",
+				 "bio":"Danny will graduate from Brown University, where he studied Economics while taking full advantage of the school's “open curriculum,” enrolling in courses from Theater Arts to Africana Studies to Engineering. Continuing with that spirit of experimentation and adventure, he took a semester off from school to travel through Morocco and Europe. Danny became interested in technology and design after interning at Warby Parker Eyewear. He followed that experience by joining an academic web design project at Brown and by leading an effort to revamp video production at Brown's daily newspaper. In his spare time you might find Danny rocking out on the drums, playing basketball in the gym, or more recently, building coffee tables in the wood shop.",
+				 "image":"Danny_Garfield.jpg"
+			 },
+			 {	 "name":"Dan Klemmer",
+			 	 "school":"Boston College",
+				 "bio":"Dan hails from Portsmouth, Rhode Island, and is studying English and Economics at Boston College. A proud Eagle while on the Heights, Dan captained the Men's Lacrosse team and led a service-immersion trip to Nicaragua. Dan's entrepreneurial foundation stems from The Odd Job Service, a company he started with his best buddy from back home. The company, whose tag-line is “Tall, Dark, and Hands-On,” did everything from landscaping to moving, and showed substantial growth over three summers by expanding to 5 employees and working for over 300 clients. While The Odd Job Service has defined a large piece of his work experience, Dan also enjoys the pursuit of knowledge and cultivation of beliefs in and outside of the classroom. Dan is always looking to push his boundaries and live in the tension of life, particularly fueled by the search for the magis, campfires, slideshows, handstands and good conversation.",
+				 "image":"Dan_Klemmer.jpg"
+			 },
+			 {	 "name":"Dillon Myers",
+			 	 "school":"Washington & Lee University",
+				 "bio":"Dillon, a native of Boston, will graduate from Washington and Lee University with majors in Business Administration and Mandarin Chinese. Dillon spent this past summer at the financial technology startup Dwolla, where he worked directly with the executive team and gained experience in business development, product management and marketing strategy. At Washington and Lee, Dillon leads three different student organizations and is a nationally ranked decathlete in Track & Field. He has also founded his own social media consulting company to help small businesses reach students in his college town. His interests include philosophy, pick-up basketball and finding hidden gem restaurants.",
+				 "image":"Dillion_Myers.jpg"
+			 },
+			 {	 "name":"Dimitri Fautsch",
+			 	 "school":"Northwestern University",
+				 "bio":"Dimitri is currently a Learning and Organizational Change major at Northwestern University. He spent the past summer as Product Manager for FindTheBest, a tech start-up based in Santa Barbara, CA. He teaches health workshops at Chicago public high schools and is researching the existence of the ‘hot-hand' in basketball. He spent a semester abroad in Madrid studying Spanish voting patterns and demonstrations. In his free time, Dimitri enjoys reading Grantland, discovering new music, and searching for new stickers for his laptop.",
+				 "image":"Dmitri_Fautsch.jpg"
+			 },
+			 {	 "name":"Dylan Gordon",
+			 	 "school":"Fraklin & Marshal College",
+				 "bio":"Dylan will graduate from Franklin & Marshall College, where he's a double major in Business and Spanish. At F&M, he directed an annual campus-wide philanthropic initiative and wrote sports editorials for the college newspaper. He spent the past two summers interning for the Miami Dolphins and National Basketball Association, working extensively on marketing partnerships. Dylan holds a New Jersey real estate license and is interested in flipping houses in the near future. In his free time, he can be found playing tennis on the local courts, watching ABC's Shark Tank, or searching for the perfect Taylor ham and egg breakfast sandwich.",
+				 "image":"Dylan_Gordon.jpg"
+			 },
+			 {	 "name":"Eddie Wharton",
+			 	 "school":"George Washington University",
+				 "bio":"Eddie is studying Finance at the George Washington University. After a summer internship in Israel with venture capital firm, Jerusalem Venture Partners, he realized he liked technology and startups. He started to formally study tech at GW, but decided to leave school without finishing his last semester to get some practical coding and selling experience. Before starting with VFA, Eddie made and sold software to booking agents in the music industry. He has also managed DJ's, been an Associate at the White House and worked as an analyst at an investment bank.",
+				 "image":"Eddie_Wharton.jpg"
+			 },
+			 {	 "name":"Elizabeth Nicholas",
+			 	 "school":"Tulane University",
+				 "bio":"Elizabeth is currently finishing her degree in Public Health at Tulane University with minors in French and Social Innovation and Social Entrepreneurship. Originally hailing from central Pennsylvania, she was attracted to NOLA by the arts scene, and its role in urban revitalization. Elizabeth has spent a large portion of her time off-campus working with local entrepreneurs, with a strong focus in project development and public relations. She recently interned with Matter Inc., a B-corps product design firm where she researched the issue of endemic violence in New Orleans. While an integral member of campus programming for the entirety of her time at Tulane, Elizabeth currently serves as the co-president of Large Concerts. Her love of New Orleans is rivaled only by her love of travel, having spent a semester in Morocco and backpacking through Northern Africa and Europe. She spends her free time watching videos of astronauts doing everyday tasks in zero-gravity.",
+				 "image":"Elizabeth_Nicholas.jpg"
+			 },
+			 {	 "name":"Emily Bowe",
+			 	 "school":"University of North Carolina - Chapel Hill",
+				 "bio":"Emily will graduate with a degree in Environmental Science from the University of North Carolina at Chapel Hill in May 2014. After a summer spent working alongside the urban designers in New York City's Department of City Planning, she found her passion for cities, design, and policy that led her to serve on the Transportation Board and the economic development board of directors in Chapel Hill. Additional classwork in urban planning and a summer in Louisville, Kentucky working on adaptive reuse of old buildings has made Emily interested in all things in urban development. She is never far from her camera and has served as a photographer and multimedia producer for various groups at UNC, most recently producing video for TEDxUNC. In her spare time, Emily loves to read, run, cheer on the Tar Heels, and make videos and is always in search of good Tex-Mex when away from her home state of Texas.",
+				 "image":"Emily_Bowe.jpg"
+			 },
+			 {	 "name":"Emily Jorgens",
+			 	 "school":"Duke University",
+				 "bio":"Emily will graduate with a degree in Environmental Science from the University of North Carolina at Chapel Hill in May 2014. After a summer spent working alongside the urban designers in New York City's Department of City Planning, she found her passion for cities, design, and policy that led her to serve on the Transportation Board and the economic development board of directors in Chapel Hill. Additional classwork in urban planning and a summer in Louisville, Kentucky working on adaptive reuse of old buildings has made Emily interested in all things in urban development. She is never far from her camera and has served as a photographer and multimedia producer for various groups at UNC, most recently producing video for TEDxUNC. In her spare time, Emily loves to read, run, cheer on the Tar Heels, and make videos and is always in search of good Tex-Mex when away from her home state of Texas.",
+				 "image":"Emily_Jorgens.jpg"
+			 },
+			 {	 "name":"Emily Tseng",
+			 	 "school":"Princeton University",
+				 "bio":"Emily (@emtseng) will graduate from Princeton University, where she studies disease ecology and public health, but mostly spends her time managing The Daily Princetonian, running daily operations and dreaming up new ways to tell stories with her campus newspaper. She spent two summers making audio and video productions with Doctors Without Borders and one summer making maps with a tuberculosis research unit in Vietnam. Raised in Nashville, she's passionate about women's issues and social change, journalism and creative content. She likes weird science, ultimate frisbee, overthinking TV shows and exploring cities.",
+				 "image":"Emily_Tseng.jpg"
+			 },
+			 {	 "name":"Chip Koziara III",
+			 	 "school":"University of Michigan - Ann Arbor",
+				 "bio":"Chip grew up in a small town in northern Michigan and is graduating from the University of Michigan with a Bachelor of Business Administration. He is passionate about revitalizing cities and spent the past year working with the State of Michigan's economic development arm to attract real estate development to cities across the state. Over the past four years, Chip spent a summer as a product management intern for an early-stage startup in NYC, co-founded a student organization that hosts annual benefit concerts with popular artists, served as a student government representative, and spent countless hours striving to make the perfect cup of coffee.",
+				 "image":"Chip_Koziara.jpg"
+			 },
+			 {	 "name":"Forrest Miller",
+			 	 "school":"Columbia University",
+				 "bio":"Forrest is studying Biomedical Engineering at Columbia and has done research in neurology, electrophysiology, and orthopedics. His passion is designing smart devices that work with the body's natural systems to solve medical problems. After his sophomore year he worked for a summer building integrated audiovisual education systems for rural schools in developing countries, an experience that ignited his passion for startups. Hailing from Vermont, he enjoys hockey, skiing, and playing guitar.",
+				 "image":"Forrest_Miller.jpg"
+			 },
+			 {	 "name":"Gabe Cunningham",
+			 	 "school":"Harvard University",
+				 "bio":"Gabe graduated from Harvard University, concentrating in Social Studies. He has interned in the private, public, and social sectors for Citi's investment banking and public finance divisions, the White House Office of Social Innovation and Civic Participation, and Be The Change, Inc., during their launch of the Opportunity Nation campaign. He has also analyzed Big Data from the City of Boston as part of the Boston Area Research Initiative. Gabe is a three-time captain of the Harvard Rugby team, wrote his senior thesis on urban and suburban poverty, and once competed on a Japanese game show in Tokyo.",
+				 "image":"Gabe_Cunningham.jpg"
+			 },
+			 {	 "name":"Galen Foote",
+			 	 "school":"Georgetown University",
+				 "bio":"Galen will graduate from Georgetown University as a double major in Government and English. During his time at Georgetown he has interned in the marketing and member services departments for the university's student-run credit union. Galen has a background in politics, marketing, and communications, and over this past summer interned for Portland, an international political communications firm. He is Vice President of Georgetown's club baseball team, enjoys writing, directing, and editing films, as well as playing pick up basketball.",
+				 "image":"Galen_Foote.jpg"
+			 },
+			 {	 "name":"Hadley Stein",
+			 	 "school":"Georgetown University",
+				 "bio":"Hadley will graduate from Georgetown University with a degree in Government and minors in Spanish and Justice, and Peace Studies. Before coming to college, Hadley spent a year working in the South Bronx with City Year New York where she saw first hand the need to create jobs in inner city communities. During college, Hadley worked for Students of Georgetown, Inc., the nation's largest student-run company, and served as both the Vice Chair of its Philanthropy Board and as Director of Operations for one of the company's coffee shops. She also worked as a Senior Consultant with Hilltop Consultants, which provides student-led consulting teams to non-profit organizations. While Hadley's summer work experience included a stint as a management consulting intern at PricewaterhouseCoopers and time as a content creator for an e-commerce start up, she confesses to thinking fondly of her summer working on a dude ranch in Montana. Hadley enjoys traveling, hiking and cooking, and is always up for a competitive game of Scrabble, and time in the Rangeley Lakes region of Maine.",
+				 "image":"Hadley_Stein.jpg"
+			 },
+			 {	 "name":"Hetali Lodaya",
+			 	 "school":"University of North Carolina - Chapel Hill",
+				 "bio":"Hetali is a Public Policy and Chemistry major at UNC, and wants to spend the rest of her life helping people understand why science matters to them. All credit for her interest in entrepreneurship and strong attraction to VFA's mission-driven model goes to four years in Nourish-UNC, a student group that allowed her to start a business and understand the power inherent in communities. She spent summers teaching 9th grade science in Philly with Breakthrough Collaborative, working at USAID through the Washington Leadership Program, and reporting for STEMwire at Reese News Lab. These experiences, along with giving campus tours, dancing with UNC Bhangra Elite and serving on the Young Jains of America board, rounded out four years of building both sides of her brain and perfecting the art of getting to class just barely on time. Hetali loves sci-fi/fantasy literature, sunshine and eating local, and live-tweets (@HetaliLodaya) whenever the occasion calls for it.",
+				 "image":"Hetali_Lodaya.jpg"
+			 },
+			 {	 "name":"Jacob Robinson",
+			 	 "school":"Duke University",
+				 "bio":"At the beginning of his junior year in high school, Jacob Robinson told his father he wanted to get a job. Jacob's dad told him that he had to start his own business. That's where Jacob's interest in entrepreneurship began, and he has been working as a disc jockey ever since. Jacob will graduate from Duke University where is studying public policy. He explored different aspects of public service through internships as a teacher in the Mississippi Delta, volunteer at a microfinance bank in Guatemala, and researcher and fact-checker at Cable News Network (CNN). Jacob believes Venture for America will allow him grow as an entrepreneur, while continuing to work in public service.",
+				 "image":"Jacob_Robinson.jpg"
+			 },
+			 {	 "name":"Jennifer Galamba",
+			 	 "school":"Barnard College",
+				 "bio":"Jennifer is a graduate of Barnard College in New York City, where she studied Psychology. A passionate explorer of how individuals and communities develop, Jennifer has served as a Research Coordinator at the University of Chicago since 2012. In addition to her current projects that explore how children make food decisions, she previously developed a touchscreen game that assesses math reasoning. Through her career in operations, data analysis, and management in academic settings, she discovered a passion for social venture. After years exploring questions of how to promote social good, she looks forward to becoming part of the answer. Her other interests include biking, traveling, and trying new foods.",
+				 "image":"Jennifer_Galamba.jpg"
+			 },
+			 {	 "name":"Jeremy Holtzman",
+			 	 "school":"University of North Carolina - Chapel Hill",
+				 "bio":"Jeremy is studying Business and Economics at the University of North Carolina, with an emphasis on consulting and finance. He has always been passionate about starting his own successful business, and has co-founded one and worked for another. His long-term goal is to start an educational technology company, and wants to learn the necessary steps to help him get there. Jeremy enjoys playing soccer and basketball during his free time, and is a huge Miami Dolphins fan.",
+				 "image":"Jeremy_Holtzman.jpg"
+			 },
+			 {	 "name":"Jessica Smith",
+			 	 "school":"University of North Carolina - Chapel Hill",
+				 "bio":"Jessica will graduate from the University of North Carolina at Chapel Hill where she is studying Environmental Science with a minor in Geography. Jessica is interested in environmental justice and how social inequality manifests itself spatially, as well as the relationship between innovation and cities. Jessica worked for the social innovation incubator at UNC since her junior year, which is where her interest in entrepreneurship began. Jessica has also traveled extensively throughout South East Asia and contributed to an independent research paper assessing the sustainability of the electrification system on a small Thai island. When she has free time, Jessica enjoys developing her amateur photography skills and learning new skills (salsa dancing and glass-blowing are her next pursuits). Jessica looks for any excuse to get outside and enjoy the outdoors.",
+				 "image":"Jessica_Smith.jpg"
+			 },
+			 {	 "name":"Joan Thompson",
+			 	 "school":"Middlebury College",
+				 "bio":"Joan will graduate with a degree in English & American Literatures from Middlebury College where she has worked in a variety of roles with Middlebury's Programs on Creativity & Innovation in the Liberal Arts. A multimedia production enthusiast, Joan has served as an assistant producer for the NYRBlit podcast, as a photographer for Middlebury's Fellowship in Narrative Journalism, as a member of the winning team for the 2013 “Sleepless in Burlington” 48-Hour film competition, and as a director of her own short films. One of Joan's favorite projects is organizing and co-hosting a monthly event in Middlebury called “Dinner with Strangers”. Joan is a big fan of public radio, cooking, eating fruit, crafts, big dogs, and leisurely biking.",
+				 "image":"Joan_Thompson.jpg"
+			 },
+			 {	 "name":"Joe Morrison",
+			 	 "school":"Davidson College",
+				 "bio":"Joe is a senior Religion major at Davidson College in North Carolina. He is the founder of Pax Backpacks, a social venture that supports after school programming for low-income middle school students through the sale of a signature line of American-made daypacks. As part of Pax's social mission, Joe teaches an expanded learning day apprenticeship called “How to Start a Business,” in which he guides a class of sixth graders as they choose a product, build a brand, and launch a company over the course of nine weeks. He is also a Bonner Scholar at Davidson, completing 140 hours of service each semester.",
+				 "image":"Joe_Morrison.jpg"
+			 },
+			 {	 "name":"Johanna Flato",
+			 	 "school":"Yale University",
+				 "bio":"Johanna double majors in Studio Art and Humanities at Yale University. A Texan at the core, she is nonetheless an avid traveler always eager to engage new cities. Most recently she worked as a social innovation intern for Laboratorio para la Ciudad, a new government think tank in Mexico City. This experience on the forefront of creative civic problem-solving inspired her to seek out comparably innovative and socially-responsible entrepreneurial projects after graduation, leading her to Venture for America. At Yale, Johanna has served as Head Student Guide and a Student Curator at the Yale Center for British Art, Graphics and Design Editor at the Yale Herald, and Chief Administrative Officer of Kappa Alpha Theta. She spends her free time sculpting, drawing, and painting and is currently exploring what constitutes as landscape, nature, and land art.",
+				 "image":"Johanna_Flato.jpg"
+			 },
+			 {	 "name":"Jack Riker",
+			 	 "school":"Duke University",
+				 "bio":"Jack is an energetic go-getter who has a knack for trying to create the next big thing. His history and economics coursework may have laid the wireframes for success, but his entrepreneurial spirit was sparked while working in business development at SquadUP in New York City. While at Duke, Jack tried his best to leave his mark as he worked with administrators to develop key school policies. Serving as the President of the Interfraternity Council, Jack was also tasked with the job of making sure that the Greek system was all on the same page. Outside of his work for Greek life, Jack enjoys fundraising, playing tennis, and watching scary movies. He couldn't be more excited to become a VFA Fellow!",
+				 "image":"John_Riker.jpg"
+			 },
+			 {	 "name":"Julia Anaya",
+			 	 "school":"Northwestern University",
+				 "bio":"Julia will graduate from Northwestern University, where she is studying Communications and International Studies. During her time in school, she's traveled to Cuba, studied abroad in Lima, Peru, and led Northwestern's premier hip hop dance company. Julia became interested in entrepreneurship through her internships at Groupon and Google, where she helped developed marketing and communication strategies for small businesses and social enterprises across the country. These experiences solidified her interest in pursuing her own entrepreneurial path, and she is excited to further develop her business and leadership skills as a VFA fellow. In her free time, you can find Julia talking to herself in Spanish, reading feminist blogs, or playing bananagrams.",
+				 "image":"Julia_Anaya.jpg"
+			 },
+			 {	 "name":"Julie Bock",
+			 	 "school":"University of Oklahoma",
+				 "bio":"Julie is studying Industrial Engineering at the University of Oklahoma. She discovered her passion for entrepreneurship through her internships at Center for the Creation of Economic Wealth working to get OU developed technologies to market. After guiding the leading radar manufacturer toward applications in the offshore oil market, she lead a team to develop a licensing and commercialization plan for an infrared detector to be used in medical and military defense. Julie also helped foster the volunteer efforts of over 5,000 OU students and faculty to help local non-profits and community organizations. In her free time she enjoys exercising, spending time with friends and family, and trying new restaurants.",
+				 "image":"Julie_Bock.jpg"
+			 },
+			 {	 "name":"Karyn Vilbig",
+			 	 "school":"Notre Dame",
+				 "bio":"Karyn spent last year doing a year of service with an AmeriCorps group called City Year where she worked full-time to get high school students back on track to graduate. She has returned to the University of Notre Dame as a senior and will be graduating with honors in May. She currently works as the Marketing and Communications intern with Downtown South Bend and helped to plan the TEDx University of Notre Dame event. In her free time, Karyn enjoys hiking, gardening and cooking.",
+				 "image":"Karyn_Vilbig.jpg"
+			 },
+			 {	 "name":"Kate Murray",
+			 	 "school":"Boston College",
+				 "bio":"Kate is a proud Boston College eagle who hails from Detroit, Michigan. An International Studies and Chinese major, she spends half of her time at BC in the library memorizing Chinese characters and writing her thesis, and the other half actively involved in student government, training for and running the Boston Marathon, and leading the club that she founded–the Random Acts of Kindness Club. Kate caught the entrepreneurship fever during her summer at Detroit Venture Partners. There, she worked with early-stage tech startups and began her role as the managing editor for the Detroit-based EduTech company called Ginkgotree. When she's not giving free hugs for the Random Acts of Kindness Club, Kate can be found playing lacrosse, baking apple pies, or cheering embarrassingly loud at BC sporting events.",
+				 "image":"Kate_Murray.jpg"
+			 },
+			 {	 "name":"Katherine Robinson",
+			 	 "school":"Johns Hopkins University",
+				 "bio":"Katherine grew up in Snohomish, WA, a small town near Seattle, and moved to Baltimore to attend Johns Hopkins University. At JHU, she is majoring in International Studies and Sociology. Since June 2012, she has interned at the Episcopal Refugee and Immigrant Center Alliance in Baltimore, where she coordinates educational workshops for refugees, assists refugees, asylees, asylum seekers, and immigrants with casework and family reunification, and does online and in-person outreach. Based on her experience working with refugees, she co-founded the Baltimore Refugee Community Cooperative, a mental wellness initiative for Bhutanese refugees in Baltimore. On campus, Katherine is the President of the JHU microfinance club Social Investment Outreach, a Senior Leadership Consultant, a Blue Key Society admissions tour guide, and a Resident Advisor. In her spare time, Katherine loves photography, traveling, meeting new people, and trying new restaurants and recipes.",
+				 "image":"Katherine_Robinson.jpg"
+			 },
+			 {	 "name":"Kathryn Lawhon",
+			 	 "school":"University of North Carolina - Chapel Hill",
+				 "bio":"Kathryn will graduate with a degree in Economics and Entrepreneurship from the University of North Carolina at Chapel Hill. She has heavily researched issues of human trafficking domestically and abroad. After working with a Nepali organization in 2013 that empowers at risk women and children, she hopes to apply the principles of entrepreneurship to effectively fight against the widespread issue of human trafficking. She loves to travel and has spent time studying abroad in London where she was able to visit various countries in continental Europe. In her spare time, Kathryn enjoys cooking, writing, playing and watching sports, and spending time outdoors.",
+				 "image":"Kathryn_Lawhon.jpg"
+			 },
+			 {	 "name":"Keith Porter",
+			 	 "school":"University of Michigan",
+				 "bio":"Keith is pursuing a masters degree in Industrial and Operations Engineering at the University of Michigan, having received his bachelors in Computer Engineering there in 2013. During the latter half of his college time, Keith co-founded A2B Bikeshare, a successful transportation startup that builds and operates high-tech bicycle sharing systems for cities. Keith has also held three IT related internships at GE and Boeing (2x) in which he was able to showcase his intrapreneurial skills. Beyond his deep focus on engineering and business, Keith has worked extensively on leadership and cultural awareness programs for his 120 student honors society, pioneering curriculum and events, and both leading and participating in volunteer trips to China, Thailand, and Honduras. Keith enjoys technology, national parks, and traveling – especially getting lost.",
+				 "image":"Keith_Portier.jpg"
+			 },
+			 {	 "name":"Kevin Suh",
+			 	 "school":"Columbia University",
+				 "bio":"Kevin will graduate from Columbia in 2014, and is majoring in Financial Economics with a concentration in Business Management. He spent his junior summer interning for a technology consulting firm in Singapore, where he enjoyed visiting Asia for the first time since he was in middle school. Although he was originally interested in the financial services industry, Kevin discovered the excitement of entrepreneurship after interning for a local startup in Washington, and couldn't look back. During his free time, Kevin is an avid basketball player and fan, and loves other sports like football, golf and bowling as well.",
+				 "image":"Kevin_Suh.jpg"
+			 },
+			 {	 "name":"Lauren Kase",
+			 	 "school":"University Michigan",
+				 "bio":"Lauren will graduate from University of Michigan where she is majoring in Organizational Psychology. Her love of learning and entrepreneurial spirit led her to dabble in different aspects of business during her college summers, interning in diverse work environments including a private placement firm, boutique PR agency, and a financial services startup. Lauren's Michigan days were kept busy with everything from her business fraternity, to conducting research, to leading the attendee experience team for TEDxUofM. A foodie hailing from San Francisco, she is a self-proclaimed coffee connoisseur who loves being active outdoors, skiing, biking, and hiking. Lauren could not be more excited to join the VFA family and have the opportunity impact the outcome of a young company.",
+				 "image":"Lauren_Kase.jpg"
+			 },
+			 {
+				 "name":"Labib Rahman",
+				 "school": "Johns Hopkins University",
+				 "bio": "Labib is from Queens, New York and attended Johns Hopkins University. He will graduate with a B.S. in Biomedical Engineering. Last summer, Labib partnered with JHPIEGO, the international non profit arm of Hopkins, and the World Health Organization to deploy a mobile application that he developed in order to increase adherence to safety standards during childbirth. During this project he worked across the full tech stack, from sketching wireframes and creating high fidelity mockups, to writing native Android code in Java and XML to create a user interface capable of running smoothly on low cost Android phones. Finally, during testing he collected feedback on usability in order to further optimize Labib hopes to continue working through the full design and development process in order make software easier to use.",
+				 "image":"Labib_Rahman.jpg"
+			 },
+			 {	 "name":"Leigh Sevin",
+			 	 "school":"Georgetown University",
+				 "bio":"Leigh will graduate from Georgetown University with a degree in American Studies and a minor in Economics. While at Georgetown, Leigh has worked for the Georgetown University Alumni and Student Federal Credit Union, where she was head of its philanthropy department. Leigh became interested in entrepreneurship while working for a startup in New York that helped bring gen-Y female professionals together to offer better networking opportunities and career advancement. She has a background in marketing, advertising, and business development.",
+				 "image":"Leigh_Sevin.jpg"
+			 },
+			 {	 "name":"Lena Kelly",
+			 	 "school":"Washington University in St. Louis",
+				 "bio":"Lena will graduate from Washington University in St. Louis with a double major in Spanish and International Studies, a concentration in Sustainable Development, and a minor in Psychology. She benefited greatly from her summer experiences at Google, Epson, and Answers.com. After publishing an undergraduate research journal and serving as president of her sorority, she spent six months living in Chile where she was able to further commit to her passion for social justice. Above all else, Lena loves to backpack, play basketball and go on spontaneous adventures with friends.",
+				 "image":"Lena_Kelly.jpg"
+			 },
+			 {	 "name":"Louisa Lee",
+			 	 "school":"Williams College",
+				 "bio":"Louisa will graduate this June with a degree in Art History from Williams College. While in the Berkshires, she co-led All Campus Entertainment, the main student-run programming organization, where she enjoyed the challenges of managing the campus's demands, a large general membership and the fickle needs of professional performers. She also co-led the Junior Advisor system at Williams, working closely with students and administrators to identify, train, and lead a class of JAs that works to reinvent the Williams culture with each incoming class. The same passion she has invested in the community at Williams has led her to pursue entrepreneurship and its potential to build and rebuild communities. She and a team of five Williams students recently developed an iPad application to aid a local charter school's teacher evaluation process. During her summers, her work has centered around marketing and development work for non-profits, where she enjoyed the challenges and rewards of developing relationships between people and worthy causes. In her spare time Louisa loves trail running, feeding her coffee addiction, and anything that can keep her outside.",
+				 "image":"Louisa_Lee.jpg"
+			 },
+			 {	 "name":"Luis Gallardo",
+			 	 "school":"Harvard University",
+				 "bio":"Luis will graduate from Harvard with a concentration in government. During his time in college, Luis has been very active in both the Harvard College Consulting Group and the Big Brothers Big Sisters organization. Most recently, Luis has helped develop WallflowerFood, a lifestyle brand that makes people feel good through music, merchandise, events, and technology. Over his past three summers, he has dabbled in investment banking, teaching, and non-profit think tanks. Additionally, Luis thoroughly enjoys the outdoors, whether it be surfing in Costa Rica, hiking in Big Sur, or camping in Joshua Tree.",
+				 "image":"Luis_Gallardo.jpg"
+			 },
+			 {	 "name":"Lynsey Chediak",
+			 	 "school":"Claremont McKenna College",
+				 "bio":"Lynsey will graduate from Claremont McKenna College, where she is studying History, with an Economic Trends concentration, and Leadership. While living abroad in Argentina during her junior year working with a local NGO and representatives from the IMF, Lynsey became particularly interested in tracing economic historical trends relating to changes in the flow of capital and the spread of technological innovations. Prior to that, she assisted the California Governor's Office in its attempts to coordinate the efforts of the private, public, and not-for-profit sectors in advancing developments in alternative energy sources throughout the state. She also gained exposure to the policy hub of Washington, DC, where she assisted a lobbying firm in the international trade arena. Lynsey co-founded and helped establish two social entrepreneurial startups focused on leveraging and increasing the engagement of her local community, including the first student-run microfinance institution in California. She is excited to witness the expanding intersection of the private sector and economic community development as a VFA Fellow. In her free time, Lynsey enjoys classic formula one racing and debating policy effectiveness, preferably at the same time.",
+				 "image":"Lynsey_Chediak.jpg"
+			 },
+			 {	 "name":"Matthew Nicholas",
+			 	 "school":"University of Michigan",
+				 "bio":"Matthew is a senior at the University of Michigan, completing a degree in Industrial and Operations Engineering and the Program in Entrepreneurship. He's been hooked on startups since starting a news service in high school, and worked for the Great Lakes VC firm RPM Ventures while in college. Driven by a thirst for new challenges, he's backpacked through China and Switzerland, and ran the Detroit Marathon. In his spare time, he loves coding, rock-climbing, and everything in-between.",
+				 "image":"Matthew_Nicholas.jpg"
+			 },
+			 {	 "name":"Michael Tantum",
+			 	 "school":"Wake Forest University",
+				 "bio":"Michael will graduate from Wake Forest University with a degree in Biology and minors in Chemistry, Entrepreneurship and Social Enterprise. His thirst for knowledge, serving others, and perpetual curiosity led him to internships in a plethora of healthcare atmospheres—learning first-hand about the problems of modern medicine. Michael's entrepreneurial spirit was sparked during his junior year when he co-founded a cleantech venture called Sun Tape. Michael has kept active at Wake Forest by partaking in Molecular Biology research, serving as the University Innovation Fellow, assisting a nascent Boy Scout troop in the local community, and acting as the Executive Director of TEDxWakeForestU. A mad scientist at heart, Michael enjoys an active outdoor lifestyle, reading political thriller novels, burning grilled cheese sandwiches and attempting to expand his social dance knowledge.",
+				 "image":"Michael_Tantum.jpg"
+			 },
+			 {	 "name":"Mitch Rubin",
+			 	 "school":"Duke University",
+				 "bio":"Mitch attends Duke University, where he is majoring in Political Science and earning a certificate in Markets and Management Studies. Most of his professional experience is in the marketing industry, as he recently interned at MRY developing branding and digital content strategy for major clients. His entrepreneurial drive has led him to establish a Peer Coaching program within his fraternity, and create the first marketing committee for his student group “duARTS.” Mitch has always been a team-player, from singing a cappella in high school to playing pickup basketball any chance he can get. He also enjoys golfing, skiing, and reading fiction.",
+				 "image":"Mitch_Rubin.jpg"
+			 },
+			 {	 "name":"Muhga Eltigani",
+			 	 "school":"University of Pennsylvania",
+				 "bio":"Muhga will graduate from the University of Pennsylvania with a triple major in International Relations, Religious Studies and African Studies. She has spend two years working with the United States Environmental Protection Agency on various projects ranging from analyzing asbestos levels in water for 48 states to locating potential locations to build gardens in Philadelphia. Muhga was the social media manager for the start up, 1DocWay during its incubator stage under DreamIt ventures. The following year, she worked as international development consultant with the new firm, ILC Africa, in Accra, Ghana. Muhga also used her creative skills to design company profiles during her summer internship with Good Company Ventures. Her future plans involve giving back to her hometown, Philadelphia, by creating jobs for her community. Muhga enjoys interfaith discussions, jogging, traveling and eating frozen yogurt.",
+				 "image":"Muhga_Eltigani.jpg"
+			 },
+			 {	 "name":"Molly Adair",
+			 	 "school":"College of William and Mary",
+				 "bio":"Molly attends The College of William & Mary, where she studies studio art and marketing. She is especially interested in the intersection of the two and the relation to visual communication. Molly has gravitated towards various communications offices over the years, having interned at the Corcoran Gallery of Art and currently works as a graphic designer at the W&M Alumni Association. When not in the studio, you can find Molly training for a half marathon, playing lacrosse, or crafting.",
+				 "image":"Molly_Adair.jpg"
+			 },
+			 {	 "name":"Nancy Dasilva",
+			 	 "school":"Northwestern University",
+				 "bio":"Nancy (@CountDaSilva) will graduate from Northwestern University with a degree in Art History. A New York native, her first summer jobs were in the education departments of the New-York Historical Society at The Frick Collection. During her time at the Frick, she designed a new smartphone app audio guide, opening her eyes to the potential of technology to innovate every industry. Following her interest in tech, she interned at Girls Who Code, a national non-profit that teaches underserved high school girls how to computer code. She hopes to parlay her previous experiences into an exciting career in technology through VFA. In her free time Nancy enjoys leading backpacking trips, traveling throughout Southeast Asia, cooking Turkish food and collecting backpacks.",
+				 "image":"Nancy_DaSilva.jpg"
+			 },
+			 {	 "name":"Nate Rattner",
+			 	 "school":"Northwestern University",
+				 "bio":"Nate grew up in New Rochelle, New York, and is currently working on a degree in Journalism from Northwestern University. On campus, he produces a magazine for the school's Fitness & Recreation Department, is part of a consulting club, helped to create a university-wide “college awareness” day for local high schoolers, and spends time working with an independent record label. Nate has interned in a variety of different fields, including publishing, health care, and digital media, and spent a semester studying abroad in Copenhagen. In his free time, he enjoys reading, being outdoors, and playing pickup basketball.",
+				 "image":"Nathaniel_Rattner.jpg"
+			 },
+			 {	 "name":"Nazli Danis",
+			 	 "school":"Barnard College",
+				 "bio":"Nazli is a senior at Barnard College, double majoring in Art History and Architecture. Born and raised in Istanbul, Turkey, she will nevertheless miss her “only in New York” moments. At Barnard, she currently serves as Vice President at the Architecture Society and as Senior Advisor and Designer at the student-run startup Athena Digital Design. Through her internships in Istanbul, at the Brooklyn Museum and at Brant Publishing, Nazli gained experience working in various industries such as advertising, publishing and the arts. Nazli first got interested in entrepreneurship after realizing its potential to bypass bureaucracy and serve as a tool for social justice. She hopes to one day channel her entrepreneurial skills towards revitalizing the public education system in Turkey. Her interests include contemporary art, documentary photography, modern literature and sailing. To learn more about Nazli and see her work, visit http://www.nazlidanis.com/",
+				 "image":"Nazli_Danis.jpg"
+			 },
+			 {	 "name":"Paul De Kokoly Thege",
+			 	 "school":"Williams College",
+				 "bio":"Paul is studying Environmental Geoscience at Williams College in Williamstown, MA. He is writing a paleoceanography thesis, the subject of which is using radiocarbon to reconstruct ocean circulation in the Bering Sea over the past 20,000 years. He has marketed for CBS Interactive Media Group, the downtown NY music venue Joe's Pub at the Public Theater, and local Williamstown music festival Billstock. A strong interest in urban environmental planning led him learn GIS, which he has used to pursue independent projects like a roof reflectivity analysis of Manhattan for former employer White Roof Project and a parking utilization study and development strategy for the City of North Adams, MA. Paul is passionate about climate change and hopes someday to professionally communicate climate science to nontechnical audiences. He plays guitar and bass, and is generally obsessed with music. He also loves to cook, make jewelry, play soccer and experience and study everything natural (which includes humanity and its creations).",
+				 "image":"Paul_de_Konkoly_Thege.jpg"
+			 },
+			 {	 "name":"Ranjani Sridhara",
+			 	 "school":"Duke University",
+				 "bio":"Hailing from Chicago, Ranjani is studying Biomedical Engineering at Duke University. She realized her passion for entrepreneurship in a course on the business strategies of technology-based startups. Through an international nonprofit, she is creating a multilingual online training resource covering hospital technology and management for developing world healthcare technicians. She also interned at Siemens Healthcare, contributing to the overhaul of their medical imaging equipment marketing strategy. In her free time, Ranjani tutors elementary school students in Durham Public Schools. On game day, you can find her coordinating undergraduate admissions for the Duke Men's Basketball team, often covered in blue paint. Her interests include sports, yoga, traveling, and finding great new restaurants wherever she goes.",
+				 "image":"Ranjani_Sridhara.jpg"
+			 },
+			 {	 "name":"Robert Palacios",
+			 	 "school":"Oberlin College",
+				 "bio":"Robert is originally from El Paso, Texas, and graduated from Oberlin College with majors in Politics and Latin American Studies. He has interned at a Latin American policy think tank, a financial services startup, and most recently at Monitor Deloitte consulting, performing financial analysis and conducting research for a non-profit client. At Oberlin, Robert has been involved with the Latino student organization, a student-run consulting firm, and worked as an advisor in the Career Center. He spent a semester studying abroad in Bolivia, which included a solo trip through the Bolivian rainforest to research the coca industry in that country. Robert has played clarinet with the Oberlin Conservatory Orchestra, and enjoys playing music, reading fiction, and traveling the world.",
+				 "image":"Robert_Palacios.jpg"
+			 },
+			 {	 "name":"Sean Rowland",
+			 	 "school":"Loyola University",
+				 "bio":"Sean is pursuing a degree in Economics and Finance at Loyola University, New Orleans, and has fallen in love with the Crescent City after leaving his hometown in beautiful central Kentucky. He has been an active leader on his campus and has served as both a member of student government and as President of his fraternity, Phi Kappa Psi. During his time at Loyola, he also helped co-found an entrepreneur association open to members of Loyola's student body. By immersing himself into the New Orleans start-up scene, Sean has secured several important roles with early-stage companies in the city. During his senior year, he helped grow and develop Holomua Life Learning, a social non-profit working to alleviate financial illiteracy in New Orleans, and interned with 52businesses. Beginning March 2014, the 52businesses team will start a new business every week for a year and will work to show the accessibility of entrepreneurship and demystify the process of pursuing a business venture. Sean enjoys spending his free time exploring urban centers and trying a variety of culinary establishments.",
+				 "image":"Sean_Rowland.jpg"
+			 },
+			 {	 "name":"Sean Wen",
+			 	 "school":"University of Texas - Austin ",
+				 "bio":"Sean graduated with a degree in Psychology from the University of Texas at Austin. While at UT Austin, Sean became very involved with a program called 3-Day Startup, further stoking his entrepreneurial spirit. After graduating, Sean became a full-time analyst at Goldman Sachs. Realizing that this did not satisfy his passion, he ventured out and found VFA. When not working, Sean loves playing basketball, going backpacking, attending music festivals and filling his head with countless rap lyrics.",
+				 "image":"Sean_Wen.jpg"
+			 },
+			 {	 "name":"Seun Oyewole",
+			 	 "school":"Georgetown University",
+				 "bio":"Seun has come to realize the importance of culture in any social setting, and he strives to understand its impact on interactions amongst peers and between communities. With such an interest, Seun has made it practice to seek solutions through personal projects for different cultural voids in communities that he has been a part of. He has built and sustained theINcrowd, his own online publication, that explored subcultural interests in urban millennial communities, and brought a diverse crowd of movers and shakers together through concerts, meet and greets, and competitions. Beyond that, Seun spent his Junior and Senior year of college cultivating a mobile application known as We Are The Loop that served as a platform for DC area college students to venture and learn more about the Washingtonian capitol through a catalog of different events. On the professional end, he has acquired a developing skillset in business logistics and operations, account management, strategy and content creation through his extensive work with the now renowned Trillectro Music Festival and the digital strategy agency Prolific Interactive. Graduating from the Walsh School of Foreign Service at Georgetown University this spring, Seun intends to combine his interests in cross-cultural interaction, community building, and innovation in an effort to discover the best practices for developing social capital in different societies, domestic and abroad.",
+				 "image":"Seun_Oyewole.jpg"
+			 },
+			 {	 "name":"Swad Komanduri",
+			 	 "school":"California Institute of Technology",
+				 "bio":"Swad is a lifelong learner taking on the challenges of the world. From building robots in high school to replicating the flight of a bird at NextGen Aeronautics, he seeks out opportunities to solve tough problems and have an impact. After graduating from Caltech, where he spent his time decoding the computations of the human brain, he helped start ReMaterials, a cleantech social venture that transformed waste into robust and affordable shelter for rural and slum inhabitants of India currently living under hazardous and suboptimal roofs. In his downtime, he enjoys sports, travel, and the great outdoors.",
+				 "image":"Swad_Komanduri.jpg"
+			 },
+			 {	 "name":"Tom Stern",
+			 	 "school":"Tulane University",
+				 "bio":"Tom is currently finishing his degree at Tulane University majoring in both Finance and Management. The owner of a tech startup that specializes in improving events,Tom enjoys designing innovative products that help improve existing products or experiences. Originally from Westchester New York Tom is an avid Knicks and Rangers fan who is also a Green Bay Packers superfan.",
+				 "image":"Thomas_Stern.jpg"
+			 },
+			 {	 "name":"Timothy Morris",
+			 	 "school":"University of Virginia",
+				 "bio":"Originally from Peachtree City, Georgia, Timothy will graduate from the University of Virginia where he studied Architecture, Global Sustainability, and Urban & Environmental Planning. In 2012, his fascination with the intersection of design, the environment, and community vitality took him to Limpopo, South Africa, where he had the opportunity to work with Studio reCOVER, an initiative which embraces the humanitarian potential of cross-disciplinary research and design. Supplementing this experience with skills gleaned as a more traditional architecture intern, Timothy hopes to couple entrepreneurship and environmental design to leverage community development and revitalize post-industrial American cities. Outside of the architecture studio, he devoted much of his college career to Residence Life, Student Council, and his Honor Fraternity. In his free time, “T,” as he's known by most, is a big fan of karaoke, trivia, graphic design, and geocaching.",
+				 "image":"Timothy_Morris.jpg"
+			 },
+			 {	 "name":"Zach Kaufman",
+			 	 "school":"Washington University in St. Louis",
+				 "bio":"Zach is a problem-solver who draws upon a diverse set of technical skills stemming from an interdisciplinary education in biomedical engineering and archaeology from Washington University in St. Louis. Throughout his academic and early professional career, Zach has showcased his entrepreneurial spirit and willingness to take risks. His summers have allowed for such distinct experiences as conducting archaeological fieldwork in Kazakhstan's Dzhungar Mountains and working as a legal clerk in the Medical Division of the Illinois Office of the Attorney General. In the latter capacity, Zach's responsibilities ranged from coordinating expert witness statements to providing council with analyses regarding the current scientific literature on Shaken Baby Syndrome. He has additionally demonstrated his propensity to take initiative via the co-founding of the Washington University Butter Churning Society, an organization centered on philanthropy and building a sense of community that is unlike any other student group in the nation. Zach's personal time is split between working to grow his own startup venture, which has developed a mobile studying application that trains users to achieve optimal levels of brain activity when addressing academic tasks, following Chicago's sports teams, discovering new music, and building meaningful relationships with bright and unique individuals, as he looks forward to doing with his peers in the VFA Class of 2014.",
+				 "image":"Zachary_Kaufman.jpg"
+			 },
+			 {
+				 "name":"Jolene Gurevich",
+				 "school":"CUNY Macaulay Honors College",
+				 "image":"Jolene_Gurevich.jpg"
+			 },
+			 {
+				 "name":"Spencer Wolfe",
+				 "school":"Columbia University",
+				 "image":"Spencer_Wolfe.jpg"
+			 },
+			 {
+				 "name":"Ben Xue",
+				 "school":"Columbia University",
+				 "image":"Ben_Xue.jpg"
+			 },
+			 {
+				 "name":"Aldo Avanzini",
+				 "school":"Columbia University",
+				 "image":"Aldo_Avanzini.jpg"
+			 },
+			 {
+				 "name":"Drake Berglund",
+				 "school":"Occidental College",
+				 "image":"Drake_Berglund.jpg"
+			 },
+			 {
+				 "name":"Camille Seyler",
+				 "school":"Middlebury College",
+				 "image":"Camille_Seyler.jpg"
+			 },
+			 {
+				 "name":"Mike Patterson",
+				 "school":"University of Pennsylvania",
+				 "image":"Mike_Patterson.jpg"
+			 },
+			 {
+				 "name":"Evan Maclin",
+				 "school":"Cornell University",
+				 "image":"Evan_Maclin.jpg"
+			 },{
+				 "name":"Kelly Payne",
+				 "school":"Yale University",
+				 "image":"Kelly_Payne.jpg"
+			 },{
+				 "name":"Michael Tucker",
+				 "school":"Emory University",
+				 "image":"Michael_Tucker.jpg"
+			 },{
+				 "name":"Natalie Akers",
+				 "school":"Yale University",
+				 "image":"Natalie_Akers.jpg"
+			 },{
+				 "name":"Courtney Ready",
+				 "school":"Duke University",
+				 "image": "Courtney_Ready.jpg"
+			 },{
+				 "name":"Stephanie Johnson",
+				 "school":"University of Pennsylvania",
+				 "image":"Stephanie_Johnson.jpg"
+			 },{
+				 "name":"Andrew Foley",
+				 "school":"Johns Hopkins University",
+				 "image":"Andrew_Foley.jpg"
+			 },{
+				 "name":"Fabian Bock",
+				 "school":"Stanford University",
+				 "image":"Fabian_Bock.jpg"
+			 },{
+				 "name":"Stephen Rees",
+				 "school":"Northwestern University",
+				 "image":"Stephen_Rees.jpg"
+			 },{
+				 "name":"Jackson Morton",
+				 "school":"Duke University",
+				 "image":"Jackson_Morton.jpg"
+			 },{
+				 "name":"Eric Mott",
+				 "school":"Case Western Reserve University",
+				 "image":"Eric_Mott.jpg"
+			 },{
+				 "name":"Austin Blouin",
+				 "school":"University of Georgia",
+				 "image":"Austin_Blouin.jpg"
+			 },{
+				 "name":"Dylan Spencer",
+				 "school":"Auburn University",
+				 "image":"Dylan_Spencer.jpg"
+			 },{
+				 "name":"Christopher Holter",
+				 "school":"Brown University",
+				 "image":"Chris_Holter.jpg"
+			 },{
+				 "name":"Clare O'brien",
+				 "school":"University of Chicago",
+				 "image":"Clare_Obrien.jpg"
+			 },{
+				 "name":"Jonathan Galpern",
+				 "school":"University of Texas",
+				 "image":"Jonathan_Galpern.jpg"
+			 },{
+				 "name":"Russel Suskind",
+				 "school":"Syracuse University",
+				 "image":"Russel_Suskind.jpg"
+			 },{
+				 "name":"Kathleen Coyle",
+				 "school":"Vanderbilt University",
+				 "image":"Kathleen_Coyle.jpg"
+			 },{
+				 "name":"Sanath Sambamorrthi",
+				 "school":"Rutgers University",
+				 "image":"Sanath_Sambamorrthi.jpg"
+			 },{
+				 "name":"Ada Sierraalta",
+				 "school":"Johns Hopkins University",
+				 "image":"Ada_Sierraalta.jpg"
+			 }
+			 
+		 ]
+		}
+
+	
+}
