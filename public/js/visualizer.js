@@ -13,6 +13,14 @@ var socialQueue=[],
 
 //variable to see what we played last = bFellow or bSocial
 var currentState = "bFellow";
+
+var bSponsors = false
+
+var counter = 0;
+var sponsorCounter = 0;
+var sponsorImages = ["SocialScreen_Sponsors_2.jpg", 
+					 "SocialScreen_Sponsors_3.jpg", 
+					 "SocialScreen_Sponsors_4.jpg"]
 	
 $(document).ready(function(){
 
@@ -121,21 +129,24 @@ function run(){
 	
 	//check what html to populate
 	//extra saftey check on socialQueue.length for safety							  
-	if(currentState == 'bFellow'){
-	 	html = formatFellowHtml(fellowQueue[fellowIterator])
-	}else if(socialQueue.length > 0 && currentState == 'bSocial'){
-		html = formatSocialHtml(section,socialQueue[0])
+	if(bSponsors == false){
+		if(currentState == 'bFellow')
+		 	html = formatFellowHtml(fellowQueue[fellowIterator])
+		else if(socialQueue.length > 0 && currentState == 'bSocial')
+			html = formatSocialHtml(section,socialQueue[0])
+		else
+			html = formatFellowHtml(fellowQueue[fellowIterator])
 	}else{
-		html = formatFellowHtml(fellowQueue[fellowIterator])
+			html = formatSponsor(section)
 	}
 	
 		
 		section.addClass('content')
 				.append(html)
 				.appendTo("section#main")
-				.offset({left: "-1000"})
+				.offset({left: "-1200"})
 				.animate({left:"500"},{
-				    duration: 2000,
+				    duration: 2000,//2000
 				    specialEasing: {
 				      width: "easeOutSine"
 				    },
@@ -143,7 +154,7 @@ function run(){
 				     
 				    /*if(socialQueue.length > 0 && currentState == 'bSocial'){
 					    
-				    }else*/ setTimeout(function(){ easeOut(section) },2500)
+				    }else*/ setTimeout(function(){ easeOut(section) },2500)//2500
  					
 				    }
 				  })
@@ -151,7 +162,7 @@ function run(){
 function easeOut(section){
 	console.log("EASE OUT");
 	section.animate({left:window.innerWidth.toString()},{
-					      	duration: 5000,
+					      	duration: 5000,//5000
 						    specialEasing: {
 						      width: "easeOutQuad"
 						    },complete: function(){
@@ -161,19 +172,25 @@ function easeOut(section){
 				      })
 }
 function finish(section){
+	//console.log(counter)
 	section.remove()
 	iterate()
 	console.log("Last State: "+ currentState)
-	//set our current state to toggle if we have media 
-	currentState = (currentState == "bFellow" && bSocial == true && socialQueue.length > 0 ) ? "bSocial" : "bFellow";
-	//check the status of bSocial
-	bSocial = (socialQueue.length > 1)? true : false;
-	console.log("Current State: "+ currentState)
-
+	if(bSponsors == false){
+		//set our current state to toggle if we have media 
+		currentState = (currentState == "bFellow" && bSocial == true && socialQueue.length > 0 ) ? "bSocial" : "bFellow";
+		//check the status of bSocial
+		bSocial = (socialQueue.length > 1)? true : false;
+		console.log("Current State: "+ currentState)
+	}else bSponsors = false
+	
+	if(counter % 25 == 0) bSponsors = true
+	else bSponsors = false
 	//if(bSocial == true && bSocialRan ==true) bSocialRan = bSocial = false
 	run()
 }
 function iterate(){
+	counter++;
 	if(currentState == "bFellow") fellowIterator = (fellowIterator < fellowQueue.length-1 )?  fellowIterator+1 : 0
 	else socialIteratorHandle() 
 }
@@ -286,6 +303,14 @@ function formatSocialHtml(section,social){
 	return ''	
 }
 
+function formatSponsor(section){
+	
+	$('<img/>').attr('src','/imgs/'+sponsorImages[sponsorCounter]).addClass('sponsor').prependTo(section)
+	
+	
+	
+	sponsorCounter = (sponsorCounter<sponsorImages.length-1)? sponsorCounter+1: 0
+}
 function returnFullName(string){
 	var split = string.split(/ (.+)?/)
 	var name = {first: split[0], last: split[1] }
