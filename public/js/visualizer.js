@@ -16,31 +16,43 @@ var currentState = "bFellow";
 	
 $(document).ready(function(){
 
-
+	var total = 0;
+    var total2012 = 0
+    var total2013 = 0
     
 	if(!fellows) console.log("ERROR NO FELLOWS")
 	else
 	for(year in fellows){
-		//console.log(fellows[year])
+		console.log(fellows[year])
 		if(fellows[year].hasOwnProperty("cities")){
 			for(var c = 0; c<fellows[year].cities.length;c++){
-				console.log(fellows[year].cities[c].city)
+				//console.log(fellows[year].cities[c].city)
+				//console.log(fellows[year].cities[c].people.length)
+				//console.log(fellows[year].cities[c].city)
+				//console.log(fellows[year].cities[c].people.length)
+				if(year =="2012") total2012 += fellows[year].cities[c].people.length
+				if(year =="2013") total2013 += fellows[year].cities[c].people.length
+				total += fellows[year].cities[c].people.length
 				for(var i = 0; i< fellows[year].cities[c].people.length; i++){
-					//console.log(fellows[year].cities[c].people[i])
+					console.log(fellows[year].cities[c].people[i].name)
 					fellows[year].cities[c].people[i].year = year
 					fellows[year].cities[c].people[i].city = fellows[year].cities[c].city
 					fellowQueue.push(fellows[year].cities[c].people[i])
 				}
 			}
 		}else{
+			total += fellows[year].people.length
 			for(var i = 0; i< fellows[year].people.length; i++){
-				//console.log(fellows[year].people[i])
+				console.log(fellows[year].people[i].name)
 				fellows[year].people[i].year = year
 				fellowQueue.push(fellows[year].people[i])
 			}
 		}
 	}
-	
+	console.log(total)
+	console.log("2012 "+total2012 )
+	console.log("2013 "+total2013 )
+	console.log("2014 "+fellows["2014"].people.length)
 	//setInterval(run, 300)
 	
 	var socket = io.connect(document.location.hostname)
@@ -121,7 +133,7 @@ function run(){
 		section.addClass('content')
 				.append(html)
 				.appendTo("section#main")
-				.offset({left: "-800"})
+				.offset({left: "-1000"})
 				.animate({left:"500"},{
 				    duration: 2000,
 				    specialEasing: {
@@ -129,11 +141,10 @@ function run(){
 				    },
 				    complete: function() {
 				     
-				     
-				    setTimeout(function(){ easeOut(section) },1000)
- 					 
-					  
-			
+				    /*if(socialQueue.length > 0 && currentState == 'bSocial'){
+					    
+				    }else*/ setTimeout(function(){ easeOut(section) },2500)
+ 					
 				    }
 				  })
 }
@@ -177,17 +188,21 @@ function formatFellowHtml(fellow){
 	var color = (fellowIterator % 2 == 0)? 'red':'blue'
 	var html = '<img class="fellow '+fellow.year+'" src="/imgs/'+fellow.image+'">'
 		html+= '<h1 class="fellow '+fellow.year+' '+color+'"><em>'+name.first+'</em>'+name.last+'</h1>'
-		html+= '<p class="fellow school '+fellow.year+'">'+fellow.school+'</p>'
 		switch(fellow.year){
 			case "2012":
-			html+='<p class="fellow year '+fellow.year+'  '+color+'"><em>'+fellow.city+'</em> ALUMNUS '+fellow.year+'</p>'
-			html+='<p class="fellow company '+fellow.year+' '+color+'">'+fellow.company+'</p>'
+			html+='<p class="fellow company large '+fellow.year+' '+color+'">'+fellow.company+'</p>'
+			html+='<p class="fellow year '+fellow.year+'  '+color+'">'+fellow.year+' <em>'+fellow.city+'</em></p>'
+			html+= '<p class="fellow school small '+fellow.year+'">'+fellow.school+'</p>'
+
 			break;
 			case "2013":
+			html+='<p class="fellow company large '+fellow.year+' '+color+'">'+fellow.company+'</p>'
 			html+='<p class="fellow year '+fellow.year+' '+color+'"><em>'+fellow.year+'</em> '+fellow.city+'</p>'
-			html+='<p class="fellow company '+fellow.year+' '+color+'">'+fellow.company+'</p>'
+			html+= '<p class="fellow school small '+fellow.year+'">'+fellow.school+'</p>'
+
 			break;
 			case "2014":
+				html+= '<p class="fellow school '+fellow.year+'">'+fellow.school+'</p>'
 				html+='<p class="fellow year '+fellow.year+' '+color+'"><em>'+fellow.year+'</em> FELLOW</p>'
 			break;
 		}
@@ -204,10 +219,16 @@ function formatFellowHtml(fellow){
 			 
 function formatSocialHtml(section,social){
 	//console.log(social)
+	var bHasImage = false
 	
+	if(social.image!='') bHasImage = true
 	var color = (fellowIterator % 2 == 0)? 'red':'blue'
 	
-	var article = $('<article></article>').appendTo(section).addClass('social').addClass('user')
+	if(bHasImage == false) 
+		var article = $('<article></article>').appendTo(section).addClass('social').addClass('user').addClass('just-text')
+	else 				
+		var article = $('<article></article>').appendTo(section).addClass('social').addClass('user')
+	
 	console.log(social.user.photo)
 	if(social.type == 'instagram')
 		$('<img/>').attr('src',social.user.photo).appendTo(article).addClass('social').addClass('user')		
@@ -219,10 +240,11 @@ function formatSocialHtml(section,social){
 			   .addClass('social')
 			   .addClass('user')
 */
-			   
+	if(bHasImage == false){		   
 	$('<h1></h1>').html(social.user.name+'<em> @'+social.user.username+'</em>')
 				  .addClass('social')
 				  .addClass('user')
+				  .addClass('just-text')
 				  .addClass(color)
 				  .appendTo(article)
 							
@@ -230,9 +252,24 @@ function formatSocialHtml(section,social){
 	$('<p></p>').html(social.text)
 				.addClass('social')
 				.addClass('text')
+				.addClass('just-text')
 				.addClass(color)
 				.appendTo(article)
 	
+	}else{
+			$('<h1></h1>').html(social.user.name+'<em> @'+social.user.username+'</em>')
+				  .addClass('social')
+				  .addClass('user')
+				  .addClass(color)
+				  .appendTo(article)
+							
+							
+			$('<p></p>').html(social.text)
+						.addClass('social')
+						.addClass('text')
+						.addClass(color)
+						.appendTo(article)
+	}
 	
 	
 	if(social.image!=''){

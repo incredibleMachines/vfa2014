@@ -11,7 +11,7 @@ var fellows = {	"2012":{
 			},
 			{
 				"name":"Dan Bloom",
-				"company":"BlackBook",
+				"company":"Donde",
 				"logo":"blackbook.jpg",
 				"school":"Wesleyan University",
 				"image":"Bloom.jpg"
@@ -94,13 +94,7 @@ var fellows = {	"2012":{
 				"school":"Michigan State University",
 				"image":"Lecuyer.jpg"
 			},
-			{
-				"name":"Kathy Cheng",
-				"company":"DoodleHome",
-				"logo":"doodlehome.jpg",
-				"school":"Massachusetts Institute of Technology",
-				"image":"Cheng.jpg"
-			},
+			
 			{
 				"name":"Max Nussenbaum",
 				"company":"Are you a human?",
@@ -147,7 +141,7 @@ var fellows = {	"2012":{
 				"image":"Levine.jpg"
 			},
 			{
-				"name":"Austin 'Jude' Stanion",
+				"name":"Jude Stanion",
 				"company":"Project 100",
 				"logo":"downtownproject.jpg",
 				"school":"University of North Carolina-Chapel Hill",
@@ -178,11 +172,11 @@ var fellows = {	"2012":{
 				"image":"Schmitt.jpg"
 			},
 			{
-				"name":"Jim Kahmann",
-				"company":"Oseberg",
-				"logo":"onemorepallet.png",
-				"school":"Columbia University",
-				"image":"Kahmann.jpg"
+				"name":"Billy Schrero",
+				"company":"StaffInsight",
+				"logo":"test",
+				"school":"Tulane University",
+				"image":"Schrero.jpg"
 			},
 			{
 				"name":"Edie Feinstein",
@@ -190,6 +184,13 @@ var fellows = {	"2012":{
 				"logo":"kickboard.jpg",
 				"school":"Cornell University",
 				"image":"Feinstein.jpg"
+			},
+			{
+				"name":"Jim Kahmann",
+				"company":"Oseberg",
+				"logo":"onemorepallet.png",
+				"school":"Columbia University",
+				"image":"Kahmann.jpg"
 			},
 			{
 				"name":"John McGrail",
@@ -225,21 +226,15 @@ var fellows = {	"2012":{
 				"logo":"carrollton.png",
 				"school":"Cornell University",
 				"image":"Cullen.jpg"
-			},
-			{
-				"name":"Billy Schrero",
-				"company":"StaffInsight",
-				"logo":"test",
-				"school":"Tulane University",
-				"image":"Schrero.jpg"
-			}]
+			}
+			]
 		},
 		{
 		"city":"Philadelphia",
 		"people":[
 					{
 				"name":"James Fayal",
-				"company":"NextFab Studio",
+				"company":"Zest Tea",
 				"logo":"cincytech.jpg",
 				"school":"University of Maryland",
 				"image":"Fayal.jpg"
@@ -249,7 +244,15 @@ var fellows = {	"2012":{
 		},
 		{
 			"city":"Providence",
-			"people":[{
+			"people":[
+			{
+				"name":"Kathy Cheng",
+				"company":"Teespring",
+				"logo":"doodlehome.jpg",
+				"school":"Massachusetts Institute of Technology",
+				"image":"Cheng.jpg"
+			},
+			{
 				"name":"Barry Conrad",
 				"company":"Swipely",
 				"logo":"downtownproject.jpg",
@@ -317,13 +320,6 @@ var fellows = {	"2012":{
 							"image":"Kavan_McEachern.jpg"
 
 							},
-							{"name": "Paige Boehmcke",
-							 "company": "Vorbeck Materials",
-							 "logo":"",
-							 "school": "John Hopkins University",
-							 "image":"Paige_Boehmcke.jpg"
-
-								},
 							{"name": "Malavika Kesavan",
 							"company": "Pegged Software",
 							"logo":"",
@@ -338,16 +334,23 @@ var fellows = {	"2012":{
 							"image":"Moss_Amer.jpg"
 
 							},
+							{"name": "Paige Boehmcke",
+							 "company": "Vorbeck Materials",
+							 "logo":"",
+							 "school": "John Hopkins University",
+							 "image":"Paige_Boehmcke.jpg"
+
+							},
 							{"name": "Peter DiPrinzio",
-								"company": "Pixelligent",
-								"logo":"",
+							"company": "Pixelligent",
+							"logo":"",
 							"school": "Middlebury College",
 							"image":"Peter_Diprinzio.jpg"
 
 							},
 							{"name": "Wesley Verne",
-								"company": "ZeroFOX",
-								"logo":"",
+							"company": "ZeroFOX",
+							"logo":"",
 							"school": "Princeton University",
 							"image":"Wes_Verne.jpg"
 
@@ -357,7 +360,7 @@ var fellows = {	"2012":{
 						{"city":"Cincinnati",
 							"people":[
 												{"name": "Anh-Ton Tran",
-													"company": "Lisnr",
+													"company": "Kandid.ly",
 													"logo":"",
 													"school": "University of Notre Dame",
 													"image":"Ahn-ton_Tran.jpg"
@@ -391,7 +394,7 @@ var fellows = {	"2012":{
 													{"name": "Matt Fulton",
 														"company": "RoadTrippers",
 														"logo":"",
-													"school": "University of Colorado",
+													"school": "University of Colorado - Boulder",
 													"image":"Matt_Fulton.jpg"
 
 													},
@@ -433,14 +436,14 @@ var fellows = {	"2012":{
 
 								},
 								{"name": "Mehves Tangun",
-									"company": "Linestream",
+									"company": "LineStream Technologies",
 									"logo":"",
 								"school": "Brown University",
 								"image":"Mehves_Tangun.jpg"
 
 								},
 								{"name": "Peter Spaulding",
-									"company": "Boxcast",
+									"company": "BoxCast",
 									"logo":"",
 								"school": "Yale University",
 								"image":"Peter_Spaulding.jpg"
@@ -576,7 +579,7 @@ var fellows = {	"2012":{
 						{"city":"Las Vegas",
 							"people":[
 								{"name": "Adam Joseph" ,
-									"company": "Downtown Project",
+									"company": "Project 100",
 									"logo":"",
 								"school": "University of Virginia",
 								"image":"Adam_Joseph.jpg"
@@ -618,12 +621,12 @@ var fellows = {	"2012":{
 								{"name": "Patrick McAnaney",
 									"company": "The Downtown Project",
 									"logo":"",
-								"school": "Rice Univerity",
+								"school": "Rice University",
 								"image":"Patrick_McAnaney.jpg"
 
 								},
 								{"name": "Shilpi Kumar",
-									"company": "Qualifyor",
+									"company": "The Downtown Project",
 									"logo":"",
 								"school": "Duke University",
 								"image":"Shilpi_Kumar.jpg"
@@ -662,14 +665,14 @@ var fellows = {	"2012":{
 
 								},
 								{"name": "Max Walters",
-									"company": "CMG Enterprises",
+									"company": "52 Businesses",
 									"logo":"",
 								"school": "Boston College",
 								"image":"Max_Walters.jpg"
 
 								},
 								{"name": "Zubin Teherani",
-									"company": "ID Scan",
+									"company": "IDFalcon",
 									"logo":"",
 								"school": "Georgetown University",
 								"image":"Zubin_Teherani.jpg"
@@ -722,13 +725,6 @@ var fellows = {	"2012":{
 									"logo":"",
 								"school": "Brown University",
 								"image":"Avery_Houser.jpg"
-
-								},
-								{"name": "Ben Goldstein",
-									"company": "Transitioning Jobs",
-									"logo":"",
-								"school": "Princeton University",
-								"image":"Ben_Goldstein.jpg"
 
 								},
 								{"name": "Claire Kim",
@@ -790,10 +786,20 @@ var fellows = {	"2012":{
 							}]
 		},
 		"2014":{"year":2014,
-		 "people":[{
-			 "name":"Alex Yamamoto",
-			 "school": "Boston University",
-			 "image":"Alex_Yamamoto.jpg"
+		 "people":[
+		 	{	"name":"Ada Sierraalta",
+				"school":"Johns Hopkins University",
+				"image":"Ada_Sierraalta.jpg"
+			 },
+			 {
+				 "name":"Aldo Avanzini",
+				 "school":"Columbia University",
+				 "image":"Aldo_Avanzini.jpg"
+			 },
+			 {
+			 	"name":"Alex Yamamoto",
+			 	"school": "Boston University",
+			 	"image":"Alex_Yamamoto.jpg"
 			 },
 			 {
 				 "name":"Alexa Wilcox",
@@ -803,6 +809,11 @@ var fellows = {	"2012":{
 			 {	 "name":"Alexander Baca",
 			 	 "school":"Washington & Lee University",
 				 "image":"Alexander_Baca.jpg"
+			 },
+			 {
+				 "name":"Andrew Foley",
+				 "school":"Johns Hopkins University",
+				 "image":"Andrew_Foley.jpg"
 			 },
 			 {	 "name":"Andrew Jones",
 			 	 "school":"University of Virginia",
@@ -815,6 +826,11 @@ var fellows = {	"2012":{
 			 {	 "name":"Armando Ochoa",
 			 	 "school":"University of Florida",
 				 "image":"Armando_Ochoa.jpg"
+			 },
+			 {
+				 "name":"Austin Blouin",
+				 "school":"University of Georgia",
+				 "image":"Austin_Blouin.jpg"
 			 },
 			 {	 "name":"Austin Mertz",
 			 	 "school":"Brown University",
@@ -836,6 +852,11 @@ var fellows = {	"2012":{
 			 	 "school":"Duke University",
 				 "image":"Ben_Snowdon.jpg"
 			 },
+			 {
+				 "name":"Ben Xue",
+				 "school":"Columbia University",
+				 "image":"Ben_Xue.jpg"
+			 },
 			 {	 "name":"Brendan Rice",
 			 	 "school":"University of Wisconsin - Madison",
 				 "image":"Brendan_Rice.jpg"
@@ -843,6 +864,11 @@ var fellows = {	"2012":{
 			 {	 "name":"Brian Schwartz",
 			 	 "school":"Northeastern University",
 				 "image":"Brian_Schwartz.jpg"
+			 },
+			 {
+				 "name":"Camille Seyler",
+				 "school":"Middlebury College",
+				 "image":"Camille_Seyler.jpg"
 			 },
 			 {	 "name":"Carolyn Jones",
 			 	 "school":"Northwestern University",
@@ -856,13 +882,31 @@ var fellows = {	"2012":{
 			 	 "school":"Duke University",
 				 "image":"Charlie_Molthrop.jpg"
 			 },
+			 {	 "name":"Chip Koziara III",
+			 	 "school":"University of Michigan",
+				 "image":"Chip_Koziara.jpg"
+			 },
 			 {	 "name":"Chisom Uche",
-			 	 "school":"Washington University at St. Louis",
+			 	 "school":"Washington University in St. Louis",
 				 "image":"Chisom_Uche.jpg"
 			 },
 			 {	 "name":"Christian Britto",
 			 	 "school":"Duke University",
 				 "image":"Christian_Britto.jpg"
+			 },
+			 {
+				 "name":"Christopher Holter",
+				 "school":"Brown University",
+				 "image":"Chris_Holter.jpg"
+			 },
+			 {
+				 "name":"Clare O'brien",
+				 "school":"University of Chicago",
+				 "image":"Clare_Obrien.jpg"
+			 },
+			 {	"name":"Courtney Ready",
+				 "school":"Duke University",
+				 "image":"Courtney_Ready.jpg"
 			 },
 			 {	 "name":"Danny Allen",
 			 	 "school":"University of North Carolina - Chapel Hill",
@@ -876,6 +920,11 @@ var fellows = {	"2012":{
 			 	 "school":"Boston College",
 				 "image":"Dan_Klemmer.jpg"
 			 },
+			 {
+				 "name":"David Wistocki",
+				 "school":"University of Tampa",
+				 "image":"David_Wistocki.jpg"
+			 },
 			 {	 "name":"Dillon Myers",
 			 	 "school":"Washington & Lee University",
 				 "image":"Dillion_Myers.jpg"
@@ -884,9 +933,19 @@ var fellows = {	"2012":{
 			 	 "school":"Northwestern University",
 				 "image":"Dmitri_Fautsch.jpg"
 			 },
+			 {
+				 "name":"Drake Berglund",
+				 "school":"Occidental College",
+				 "image":"Drake_Berglund.jpg"
+			 },
 			 {	 "name":"Dylan Gordon",
-			 	 "school":"Fraklin & Marshal College",
+			 	 "school":"Fraklin & Marshall College",
 				 "image":"Dylan_Gordon.jpg"
+			 },
+			 {
+				 "name":"Dylan Spencer",
+				 "school":"Auburn University",
+				 "image":"Dylan_Spencer.jpg"
 			 },
 			 {	 "name":"Eddie Wharton",
 			 	 "school":"George Washington University",
@@ -908,9 +967,20 @@ var fellows = {	"2012":{
 			 	 "school":"Princeton University",
 				 "image":"Emily_Tseng.jpg"
 			 },
-			 {	 "name":"Chip Koziara III",
-			 	 "school":"University of Michigan - Ann Arbor",
-				 "image":"Chip_Koziara.jpg"
+			 {
+				 "name":"Eric Mott",
+				 "school":"Case Western Reserve University",
+				 "image":"Eric_Mott.jpg"
+			 },
+			 {
+				 "name":"Evan Maclin",
+				 "school":"Cornell University",
+				 "image":"Evan_Maclin.jpg"
+			 },
+			 {
+				 "name":"Fabian Bock",
+				 "school":"Stanford University",
+				 "image":"Fabian_Bock.jpg"
 			 },
 			 {	 "name":"Forrest Miller",
 			 	 "school":"Columbia University",
@@ -928,9 +998,22 @@ var fellows = {	"2012":{
 			 	 "school":"Georgetown University",
 				 "image":"Hadley_Stein.jpg"
 			 },
+			 {	 "name":"Harrison Tan",
+			 	 "school":"NYU Abu Dhabi",
+				 "image":"Harrison_Tan.jpg"
+			 },
 			 {	 "name":"Hetali Lodaya",
 			 	 "school":"University of North Carolina - Chapel Hill",
 				 "image":"Hetali_Lodaya.jpg"
+			 },
+			 {	 "name":"Jack Riker",
+			 	 "school":"Duke University",
+				 "image":"John_Riker.jpg"
+			 },
+			 {
+				 "name":"Jackson Morton",
+				 "school":"Duke University",
+				 "image":"Jackson_Morton.jpg"
 			 },
 			 {	 "name":"Jacob Robinson",
 			 	 "school":"Duke University",
@@ -960,9 +1043,15 @@ var fellows = {	"2012":{
 			 	 "school":"Yale University",
 				 "image":"Johanna_Flato.jpg"
 			 },
-			 {	 "name":"Jack Riker",
-			 	 "school":"Duke University",
-				 "image":"John_Riker.jpg"
+			 {
+				 "name":"Jolene Gurevich",
+				 "school":"Macaulay Honors College at CUNY",
+				 "image":"Jolene_Gurevich.jpg"
+			 },
+			 {
+				 "name":"Jonathan Galpern",
+				 "school":"University of Texas",
+				 "image":"Jonathan_Galpern.jpg"
 			 },
 			 {	 "name":"Julia Anaya",
 			 	 "school":"Northwestern University",
@@ -973,7 +1062,7 @@ var fellows = {	"2012":{
 				 "image":"Julie_Bock.jpg"
 			 },
 			 {	 "name":"Karyn Vilbig",
-			 	 "school":"Notre Dame",
+			 	 "school":"Notre Dame University",
 				 "image":"Karyn_Vilbig.jpg"
 			 },
 			 {	 "name":"Kate Murray",
@@ -983,6 +1072,11 @@ var fellows = {	"2012":{
 			 {	 "name":"Katherine Robinson",
 			 	 "school":"Johns Hopkins University",
 				 "image":"Katherine_Robinson.jpg"
+			 },			 
+			 {
+				 "name":"Kathleen Coyle",
+				 "school":"Vanderbilt University",
+				 "image":"Kathleen_Coyle.jpg"
 			 },
 			 {	 "name":"Kathryn Lawhon",
 			 	 "school":"University of North Carolina - Chapel Hill",
@@ -992,12 +1086,17 @@ var fellows = {	"2012":{
 			 	 "school":"University of Michigan",
 				 "image":"Keith_Portier.jpg"
 			 },
+			 {
+				 "name":"Kelly Payne",
+				 "school":"Yale University",
+				 "image":"Kelly_Payne.jpg"
+			 },
 			 {	 "name":"Kevin Suh",
 			 	 "school":"Columbia University",
 				 "image":"Kevin_Suh.jpg"
 			 },
 			 {	 "name":"Lauren Kase",
-			 	 "school":"University Michigan",
+			 	 "school":"University of Michigan",
 				 "image":"Lauren_Kase.jpg"
 			 },
 			 {
@@ -1033,6 +1132,16 @@ var fellows = {	"2012":{
 			 	 "school":"Wake Forest University",
 				 "image":"Michael_Tantum.jpg"
 			 },
+			  {
+				 "name":"Michael Tucker",
+				 "school":"Emory University",
+				 "image":"Michael_Tucker.jpg"
+			 },
+			 {
+				 "name":"Mike Patterson",
+				 "school":"University of Pennsylvania",
+				 "image":"Mike_Patterson.jpg"
+			 },
 			 {	 "name":"Mitch Rubin",
 			 	 "school":"Duke University",
 				 "image":"Mitch_Rubin.jpg"
@@ -1049,6 +1158,11 @@ var fellows = {	"2012":{
 			 	 "school":"Northwestern University",
 				 "image":"Nancy_DaSilva.jpg"
 			 },
+			 {
+				 "name":"Natalie Akers",
+				 "school":"Yale University",
+				 "image":"Natalie_Akers.jpg"
+			 },
 			 {	 "name":"Nate Rattner",
 			 	 "school":"Northwestern University",
 				 "image":"Nathaniel_Rattner.jpg"
@@ -1056,6 +1170,11 @@ var fellows = {	"2012":{
 			 {	 "name":"Nazli Danis",
 			 	 "school":"Barnard College",
 				 "image":"Nazli_Danis.jpg"
+			 },
+			 {
+				"name":"Patrick Leonard",
+				"school":"Harvard University",
+				"image":"Patrick_Leonard.jpg" 
 			 },
 			 {	 "name":"Paul De Kokoly Thege",
 			 	 "school":"Williams College",
@@ -1069,21 +1188,56 @@ var fellows = {	"2012":{
 			 	 "school":"Oberlin College",
 				 "image":"Robert_Palacios.jpg"
 			 },
+			 {
+				 "name":"Russell Suskind",
+				 "school":"Syracuse University",
+				 "image":"Russel_Suskind.jpg"
+			 },
+			 {
+				 "name":"Sanath Sambamorrthi",
+				 "school":"Rutgers University",
+				 "image":"Sanath_Sambamorrthi.jpg"
+			 },
 			 {	 "name":"Sean Rowland",
-			 	 "school":"Loyola University",
+			 	 "school":"Loyola University - New Orleans",
 				 "image":"Sean_Rowland.jpg"
 			 },
 			 {	 "name":"Sean Wen",
 			 	 "school":"University of Texas - Austin ",
 				 "image":"Sean_Wen.jpg"
 			 },
+			 {
+				 "name":"Seth Forsgren",
+				 "school": "Princeton University",
+				 "image":"Seth_Forsgren.jpg"
+			 },
 			 {	 "name":"Seun Oyewole",
 			 	 "school":"Georgetown University",
 				 "image":"Seun_Oyewole.jpg"
 			 },
+			 
+			 {
+				 "name":"Spencer Wolfe",
+				 "school":"Columbia University",
+				 "image":"Spencer_Wolfe.jpg"
+			 },
+			 {
+				 "name":"Stephanie Johnson",
+				 "school":"University of Pennsylvania",
+				 "image":"Stephanie_Johnson.jpg"
+			 },
+			 {
+				 "name":"Stephen Rees",
+				 "school":"Northwestern University",
+				 "image":"Stephen_Rees.jpg"
+			 },
 			 {	 "name":"Swad Komanduri",
 			 	 "school":"California Institute of Technology",
 				 "image":"Swad_Komanduri.jpg"
+			 },
+			 {	 "name":"Taher Hassonjee",
+				 "school":"NYU",
+				 "image":"Taher_Hassonjee.jpg"
 			 },
 			 {	 "name":"Tom Stern",
 			 	 "school":"Tulane University",
@@ -1096,143 +1250,7 @@ var fellows = {	"2012":{
 			 {	 "name":"Zach Kaufman",
 			 	 "school":"Washington University in St. Louis",
 				 "image":"Zachary_Kaufman.jpg"
-			 },
-			 {
-				 "name":"Jolene Gurevich",
-				 "school":"CUNY Macaulay Honors College",
-				 "image":"Jolene_Gurevich.jpg"
-			 },
-			 {
-				 "name":"Spencer Wolfe",
-				 "school":"Columbia University",
-				 "image":"Spencer_Wolfe.jpg"
-			 },
-			 {
-				 "name":"Ben Xue",
-				 "school":"Columbia University",
-				 "image":"Ben_Xue.jpg"
-			 },
-			 {
-				 "name":"Aldo Avanzini",
-				 "school":"Columbia University",
-				 "image":"Aldo_Avanzini.jpg"
-			 },
-			 {
-				 "name":"Drake Berglund",
-				 "school":"Occidental College",
-				 "image":"Drake_Berglund.jpg"
-			 },
-			 {
-				 "name":"Camille Seyler",
-				 "school":"Middlebury College",
-				 "image":"Camille_Seyler.jpg"
-			 },
-			 {
-				 "name":"Mike Patterson",
-				 "school":"University of Pennsylvania",
-				 "image":"Mike_Patterson.jpg"
-			 },
-			 {
-				 "name":"Evan Maclin",
-				 "school":"Cornell University",
-				 "image":"Evan_Maclin.jpg"
-			 },
-			 {
-				 "name":"Kelly Payne",
-				 "school":"Yale University",
-				 "image":"Kelly_Payne.jpg"
-			 },
-			 {
-				 "name":"Michael Tucker",
-				 "school":"Emory University",
-				 "image":"Michael_Tucker.jpg"
-			 },
-			 {
-				 "name":"Natalie Akers",
-				 "school":"Yale University",
-				 "image":"Natalie_Akers.jpg"
-			 },
-			 {
-				 "name":"Courtney Ready",
-				 "school":"Duke University",
-				 "image": "Courtney_Ready.jpg"
-			 },
-			 {
-				 "name":"Stephanie Johnson",
-				 "school":"University of Pennsylvania",
-				 "image":"Stephanie_Johnson.jpg"
-			 },
-			 {
-				 "name":"Andrew Foley",
-				 "school":"Johns Hopkins University",
-				 "image":"Andrew_Foley.jpg"
-			 },
-			 {
-				 "name":"Fabian Bock",
-				 "school":"Stanford University",
-				 "image":"Fabian_Bock.jpg"
-			 },
-			 {
-				 "name":"Stephen Rees",
-				 "school":"Northwestern University",
-				 "image":"Stephen_Rees.jpg"
-			 },
-			 {
-				 "name":"Jackson Morton",
-				 "school":"Duke University",
-				 "image":"Jackson_Morton.jpg"
-			 },
-			 {
-				 "name":"Eric Mott",
-				 "school":"Case Western Reserve University",
-				 "image":"Eric_Mott.jpg"
-			 },
-			 {
-				 "name":"Austin Blouin",
-				 "school":"University of Georgia",
-				 "image":"Austin_Blouin.jpg"
-			 },
-			 {
-				 "name":"Dylan Spencer",
-				 "school":"Auburn University",
-				 "image":"Dylan_Spencer.jpg"
-			 },
-			 {
-				 "name":"Christopher Holter",
-				 "school":"Brown University",
-				 "image":"Chris_Holter.jpg"
-			 },
-			 {
-				 "name":"Clare O'brien",
-				 "school":"University of Chicago",
-				 "image":"Clare_Obrien.jpg"
-			 },
-			 {
-				 "name":"Jonathan Galpern",
-				 "school":"University of Texas",
-				 "image":"Jonathan_Galpern.jpg"
-			 },
-			 {
-				 "name":"Russel Suskind",
-				 "school":"Syracuse University",
-				 "image":"Russel_Suskind.jpg"
-			 },
-			 {
-				 "name":"Kathleen Coyle",
-				 "school":"Vanderbilt University",
-				 "image":"Kathleen_Coyle.jpg"
-			 },
-			 {
-				 "name":"Sanath Sambamorrthi",
-				 "school":"Rutgers University",
-				 "image":"Sanath_Sambamorrthi.jpg"
-			 },
-			 {
-				 "name":"Ada Sierraalta",
-				 "school":"Johns Hopkins University",
-				 "image":"Ada_Sierraalta.jpg"
 			 }
-			 
 		 ]
 		}
 
