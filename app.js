@@ -87,10 +87,10 @@ if ('development' == app.get('env')) {
 server = http.createServer(app)
 io = socketIO.listen(server)
 
-io.configure(function () { 
-  io.set("transports", ['websocket', 'xhr-polling']); 
+io.configure(function () {
+  io.set("transports", ['websocket', 'xhr-polling']);
   io.set('log level', 1);
-  //io.set("polling duration", 10); 
+  //io.set("polling duration", 10);
 });
 
 server.listen(app.get('port'), function(){
@@ -126,4 +126,3 @@ app.delete('/instagram',routes.instagram.delete(Instagram) )
 app.get('/test', function(req,res){
 	res.render('test-view',{})
 })
-

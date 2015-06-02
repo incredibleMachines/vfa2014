@@ -8,8 +8,8 @@ var profanity = [
 ];
 
 var trackPhrases = ['#incmachinesdev',
-					'#vfa', 
-					'#vfa2014', 					
+					'#vfa',
+					'#vfa2014',
 					'#vfaparty',
 					'#ventureforamerica',
 					'#buildthings',
@@ -25,7 +25,7 @@ var following = ['1716295890', '19726058']; //@makeitMEGA && @riotfest user_ids
 var followingString = following.join();
 
 exports.run = function(io){
-	
+
 	twitter.immortalStream('statuses/filter',{track:trackString,stall_warnings:true},function(stream){
 		stream.on('data',function(data){
 			//profanity check
@@ -33,14 +33,14 @@ exports.run = function(io){
 				//console.log(data)
 				console.log(JSON.stringify(data.entities))
 				var instagram = false;
-				
+
 				//check if the tweet is an instagram
-				//if it is ignore it cause we'll be getting 
+				//if it is ignore it cause we'll be getting
 				//the data from the instagram module
 				if(data.entities.hasOwnProperty("urls"))
 					for(var i = 0; i< data.entities.urls.length;i++)
 						if(data.entities.urls[i].expanded_url.indexOf('instagram')>=0) instagram = true;
-				
+
 				if(!instagram){
 					var obj = {}
 					obj.text = data.text
@@ -51,9 +51,9 @@ exports.run = function(io){
 					obj.user.name = data.user.name
 					io.sockets.emit('twitter',obj)
 				}else console.log("Instagram Post")
-				
+
 			}
-			
+
 		})
 		//Deal with errors
 		stream.on('error', function(error, code){
@@ -72,7 +72,7 @@ exports.run = function(io){
 			console.log(response);
 		});
 	})
-	
+
 }
 
 function cursing(text){

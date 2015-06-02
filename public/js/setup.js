@@ -19,7 +19,7 @@ $(document).ready(function(){
 		    }
 		});
 	})
-	
+
 	$("form.get.subscriptions").submit(function(e){
 		e.preventDefault()
 		var url = $(this).attr('action')+"?"+$(this).serialize()
@@ -45,17 +45,17 @@ $(document).ready(function(){
 				}else{
 					var html = "<h4>No Current Subscriptions</h4>"
 				}
-				
+
 				$('section.current.subscriptions').html(html)
 			}
 		})
 	})
-	
+
 	//Can't figure out why this post won't work with ajax?
 	//Anyone?
 	$("form.post.subscriptions").submit(function(e){
-		
-		
+
+
 		e.preventDefault();
 		var $this = $(this)
 		var url = $this.attr('action')//+'?'+$(this).serialize()
@@ -63,7 +63,7 @@ $(document).ready(function(){
 		var regex = new RegExp('/','g')
 		data = data.replace(regex, '\/')
 		//console.log(data)
-		
+
 		console.log("POST "+url)
 		console.log("DATA: "+data)
 		$.ajax({
@@ -74,6 +74,7 @@ $(document).ready(function(){
 		        // Do something with the result
 		        //console.log('POST successful')
 		        $('.btn-success').removeClass('btn-success').addClass('btn-default')
+						console.log(result)
 		        if(result.meta.code == 200){
 		        	console.log('POST successful')
 		        	$("form.get.subscriptions").submit()
@@ -86,11 +87,11 @@ $(document).ready(function(){
 		    }
 		});
 
-		
-		
+
+
 	})
-	
+
 	//make a request to our get to list our all subscriptions
 	$("form.get.subscriptions").submit()
-	
+
 })
