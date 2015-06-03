@@ -19,9 +19,8 @@ var bSponsors = false
 
 var counter = 0;
 var sponsorCounter = 0;
-var sponsorImages = ["SocialScreen_Sponsors_2.jpg",
-					 "SocialScreen_Sponsors_3.jpg",
-					 "SocialScreen_Sponsors_4.jpg"]
+var sponsorImages = ["SocialScreen_Sponsors_1.jpg",
+					 "SocialScreen_Sponsors_2.jpg"]
 
 $(document).ready(function(){
 
