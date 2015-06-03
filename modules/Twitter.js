@@ -8,14 +8,18 @@ var profanity = [
 ];
 
 var trackPhrases = ['#incmachinesdev',
-					'#vfa',
-					'#vfa2014',
-					'#vfaparty',
-					'#ventureforamerica',
-					'#buildthings',
-					'#SmartPeopleShouldBuildThings',
-					'#OpportunityDetroit',
-					'#WeareVFA' /*, '#wtf'*/ ];
+'#vfa',
+'#vfa2015',
+'#vfaparty',
+'#ventureforamerica',
+'#buildthings',
+'#SmartPeopleShouldBuildThings',
+'#WeareVFA',
+'#VFAmily',
+'#FellowFounded',
+'#venture4america',
+'#summercelebration',
+'#fellowfounders' /*, '#wtf'*/ ];
 
 //the string we need to track tweets with
 var trackString = trackPhrases.join();
